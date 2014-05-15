@@ -27,6 +27,8 @@ removeAllItems player;
     player unassignItem _x;
     player removeItem _x;
 } foreach (assignedItems player);
+removeAllAssignedItems player;
+removeAllItems player;
 
 _uniform = [_itemArray,0,"",[""]] call BIS_fnc_param;
 _vest = [_itemArray,1,"",[""]] call BIS_fnc_param;
