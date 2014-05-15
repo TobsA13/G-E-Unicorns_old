@@ -287,6 +287,7 @@ class Life_Client_Core
 		class sirenLights {};
 		class licenseCheck {};
 		class licensesRead {};
+		class copOpener {};
 
 		class ADACLights {};        
         class ADACsirenLights {};

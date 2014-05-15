@@ -315,6 +315,13 @@ switch (_code) do
 			};
 		};
 	};
+	  // O, police gate opener
+        case 24:
+	{
+		if (!_shift && !_alt && !_ctrlKey && (playerSide == west) && (vehicle player != player)) then {
+			[] call life_fnc_copOpener;
+		};
+	};
 };
 
 _handled;
