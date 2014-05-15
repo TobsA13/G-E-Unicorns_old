@@ -32,7 +32,9 @@ switch (_item) do
 	case "donuts": {1};
 	case "coffee": {1};
 	case "fuelE": {2};
-	case "fuelF": {5};
+	case "fuelE": {2};
+	case "platinu": {5};
+	case "platinp": {3};
 	case "money": {0};
 	case "pickaxe": {2};
 	case "copperore": {4};

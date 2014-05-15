@@ -29,7 +29,7 @@ switch(_shop) do
 			{
 				["Polizeishop",
 					[
-						["hgun_P07_snds_F","Stun Pistol",2000],
+						["hgun_P07_snds_F","Stun Pistol",0],
 						["Binocular",nil,150],
 						["ItemGPS",nil,100],
 						["ToolKit",nil,250],
@@ -135,16 +135,16 @@ switch(_shop) do
 			{
 				["Waffenhändler",
 					[
-						["hgun_Rook40_F",nil,6500],
-						["hgun_Pistol_heavy_02_F",nil,9850],
-						["hgun_ACPC2_F",nil,11500],
-						["hgun_PDW2000_F",nil,20000],
-						["optic_ACO_grn_smg",nil,2500],
-						["V_Rangemaster_belt",nil,4900],
-						["16Rnd_9x21_Mag",nil,25],
-						["9Rnd_45ACP_Mag",nil,45],
-						["6Rnd_45ACP_Cylinder",nil,50],
-						["30Rnd_9x21_Mag",nil,75]
+						["hgun_Rook40_F",nil,10000],
+						["hgun_Pistol_heavy_02_F",nil,15000],
+						["hgun_ACPC2_F",nil,20000],
+						["hgun_PDW2000_F",nil,40000],
+						["optic_ACO_grn_smg",nil,5000],
+						["V_Rangemaster_belt",nil,13000],
+						["16Rnd_9x21_Mag",nil,100],
+						["9Rnd_45ACP_Mag",nil,100],
+						["6Rnd_45ACP_Cylinder",nil,100],
+						["30Rnd_9x21_Mag",nil,250]
 					]
 				];
 			};

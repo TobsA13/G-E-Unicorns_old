@@ -210,6 +210,14 @@ switch (_vehicle) do
 			case 0: {_color = "Black"};
 		};
 	};
+	
+	case "O_Truck_03_transport_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Regular"};
+		};
+	};
 };
 
 _color;

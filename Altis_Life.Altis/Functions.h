@@ -63,6 +63,7 @@ class Life_Client_Core
 		class robBankAction {};
 		class sellOil {};
 		class suicideBomb {};
+		class gatherPlatin {};
 		class arrestAction {};
 		class escortAction {};
 		class impoundAction {};

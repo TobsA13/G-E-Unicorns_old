@@ -90,9 +90,9 @@ life_thirst = 100;
 life_hunger = 100;
 __CONST__(life_paycheck_period,5); //Five minutes
 life_cash = 0;
-__CONST__(life_impound_car,450);
-__CONST__(life_impound_boat,650);
-__CONST__(life_impound_air,850);
+__CONST__(life_impound_car,1000);
+__CONST__(life_impound_boat,1200);
+__CONST__(life_impound_air,1400);
 life_istazed = false;
 life_my_gang = ObjNull;
 
@@ -102,12 +102,12 @@ switch (playerSide) do
 {
 	case west: 
 	{
-		life_atmcash = 7000; //Starting Bank Money
+		life_atmcash = 10000; //Starting Bank Money
 		life_paycheck = 2500; //Paycheck Amount
 	};
 	case civilian: 
 	{
-		life_atmcash = 3000; //Starting Bank Money
+		life_atmcash = 5000; //Starting Bank Money
 		life_paycheck = 350; //Paycheck Amount
 	};
 	
@@ -132,6 +132,8 @@ life_inv_items =
 	"life_inv_rabbit",
 	"life_inv_salema",
 	"life_inv_ornate",
+	"life_inv_platinu",
+	"life_inv_platinp",
 	"life_inv_mackerel",
 	"life_inv_tuna",
 	"life_inv_mullet",
@@ -195,6 +197,7 @@ life_licenses =
 	["license_civ_sand","civ"],
 	["license_civ_salt","civ"],
 	["license_civ_cement","civ"],
+	["license_civ_platin","civ"],
 	["license_med_air","med"],
     ["license_civ_home", "civ"]
 ];
@@ -236,6 +239,8 @@ sell_array =
 	["peach",55],
 	["cocaine",3000],
 	["cocainep",5000],
+	["platinu",500],
+	["platinp",2250],
 	["diamond",750],
 	["diamondc",2000],
 	["iron_r",3200],

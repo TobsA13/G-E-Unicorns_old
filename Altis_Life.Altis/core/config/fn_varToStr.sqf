@@ -43,6 +43,8 @@ switch (_var) do
 	case "life_inv_sand": {"Sand"};
 	case "life_inv_salt": {"Salz verdreckt"};
 	case "life_inv_saltr": {"Salz gereinigt"};
+	case "life_inv_platinu": {"Platinerz"};
+	case "life_inv_platinp": {"Platinbarren"};
 	case "life_inv_glass": {"Glas"};
 	case "life_inv_diamond": {"Diamandenroling"};
 	case "life_inv_diamondr": {"geschliffener Diamant"};
@@ -73,6 +75,7 @@ switch (_var) do
 	case "license_civ_truck": {"LKW-Führerschein"};
 	case "license_civ_diamond": {"Diamant Lizenz"};
 	case "license_civ_copper": {"Kupfer Lizenz"};
+	case "license_civ_platin": {"Platin Lizenz"};
 	case "license_civ_iron": {"Eisen Lizenz"};
 	case "license_civ_sand": {"Sand Lizenz"};
 	case "license_civ_salt": {"Salt Lizenz"};

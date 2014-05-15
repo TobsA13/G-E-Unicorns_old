@@ -121,7 +121,8 @@ switch (_shop) do
 			["C_Van_01_box_F",60000],
 			["I_Truck_02_transport_F",75000],
 			["I_Truck_02_covered_F",100000],
-			["B_Truck_01_transport_F",200000]
+			["B_Truck_01_transport_F",200000],
+			["O_Truck_03_transport_F",600000]
 		];	
 	};
 	
@@ -132,7 +133,8 @@ switch (_shop) do
 			["C_Van_01_box_F",60000],
 			["I_Truck_02_transport_F",75000],
 			["I_Truck_02_covered_F",100000],
-			["B_Truck_01_transport_F",200000]
+			["B_Truck_01_transport_F",200000],
+			["O_Truck_03_transport_F",600000]
 		];	
 	};
 	
@@ -265,6 +267,8 @@ switch (_shop) do
 		["I_Truck_02_transport_F",0]];
 		_return set[count _return,
 		["B_Truck_01_covered_F",0]];
+		_return set[count _return,
+		["O_Truck_03_transport_F",0]];
 		_return set[count _return,
 		["B_Truck_01_transport_F",0]];
 	};

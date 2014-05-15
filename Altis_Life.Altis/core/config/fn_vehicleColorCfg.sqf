@@ -197,6 +197,14 @@ switch (_vehicle) do
 		];
 	};
 	
+	case "O_Truck_03_covered_F":
+	{
+		_ret = 
+		[
+			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","fed"]
+		];
+	};
+	
 	case "O_Heli_Attack_02_black_F":
 	{
 		_ret = 
