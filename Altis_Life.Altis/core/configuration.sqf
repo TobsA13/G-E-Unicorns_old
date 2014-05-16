@@ -32,9 +32,6 @@ life_respawned = false;
 life_removeWanted = false;
 
 
-life_hands_up = false;
-life_n_holstered = false;
-
 //Anticheat
 anticheat_sell = 0;
 anticheat_sell_sa = 0;
