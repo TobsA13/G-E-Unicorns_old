@@ -30,7 +30,7 @@ life_knockout = false;
 life_interrupted = false;
 life_respawned = false;
 life_removeWanted = false;
-
+life_holstered = false;
 
 life_hands_up = false;
 life_n_holstered = false;

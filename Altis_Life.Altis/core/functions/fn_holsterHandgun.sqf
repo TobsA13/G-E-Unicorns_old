@@ -6,7 +6,6 @@
  
 if (vehicle player != player) exitWith {};
 if (player getVariable "restrained") exitWith {};
-if (isNil("life_holstered")) then { life_holstered = false; };
 
 KWF_holsterHandgun_holsterAction =
 {
