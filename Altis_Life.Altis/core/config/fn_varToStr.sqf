@@ -58,6 +58,10 @@ switch (_var) do
 	case "life_inv_rock": {"Stein"};
 	case "life_inv_cement": {"Zement Sack"};
 	case "life_inv_goldbar": {"Gold Baren"};
+	case "life_inv_meth_kit": {"Badesalz"};
+	case "life_inv_sodium_hydroxide": {"Ritalin"};
+	case "life_inv_crystal_meth": {"Cloud9-Granulat"};
+	case "life_inv_crystal_meth_pure": {"Cloud9"};
 	
 	//License Block
 	case "license_civ_driver": {"Führerschein"};
@@ -82,6 +86,7 @@ switch (_var) do
 	case "license_civ_coke": {"Kokain Rezept"};
 	case "license_civ_marijuana": {"Marijuana Rezept"};
 	case "license_civ_cement": {"Zimentmischer Lizenz"};
+	case "license_civ_meth1": {"Cloud9 Rezept."};
     
         //Virtual Inventory Items
     case "life_inv_storage1": {"Abstellkammer"};

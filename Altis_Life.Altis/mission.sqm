@@ -2116,7 +2116,7 @@ class Mission
 					init="this enableSimulation false; this allowDamage false; this hideObject true;";
 					description="Master Group for NPC's";
 					syncId=0;
-					synchronizations[]={1};
+					synchronizations[]={4,2,3,1};
 				};
 				class Item1
 				{
@@ -3519,6 +3519,8 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					init="this enableSimulation false;this addAction[""Notarzt Items"",life_fnc_virt_menu,""medic""];  this allowDamage false; this addAction[""Notarzt Ausrüstung"",life_fnc_weaponShopMenu,""medic""]; this addAction[""Notarztkleidung"",life_fnc_clothingMenu,""medic""];";
+					syncId=1;
+					synchronizations[]={0};
 				};
 			};
 		};
@@ -3539,6 +3541,8 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					init="this enableSimulation false; this allowDamage false; this addAction[""Helihändler"",life_fnc_vehicleShop,""med_air_1""];";
+					syncId=2;
+					synchronizations[]={0};
 				};
 			};
 		};
@@ -3559,6 +3563,8 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					init="this enableSimulation false; this allowDamage false;  this addAction[""Fahrzeughändler"",life_fnc_vehicleShop,""med_car_1""]; this addAction[""Ausparken"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] spawn life_fnc_MP;   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Suche Fahrzeuge...""];   life_garage_sp = ""med_car_1""; life_garage_type = ""Car"";  }]; this addAction[""Einparken..."",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+					syncId=3;
+					synchronizations[]={0};
 				};
 			};
 		};
@@ -3698,7 +3704,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					init="this enableSimulation false; this allowDamage false; this addAction[""Process Platin"",life_fnc_processAction,""platin"",0,false,false,"""",' life_inv_platinu > 0 && !life_is_processing']; this addAction[format[""%1 ($%2)"",[""license_civ_platin""] call life_fnc_varToStr,[([""platin""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""platin"",0,false,false,"""",' !license_civ_platin && playerSide == civilian '];";
-					syncId=1;
+					syncId=4;
 					synchronizations[]={0};
 				};
 			};

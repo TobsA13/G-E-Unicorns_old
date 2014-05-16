@@ -197,7 +197,7 @@ class Life_Client_Core
         class handleFlashbang {};
         class globalSound {};
 		class globalSoundClient {};
-		class holsterWeapons {};	
+		class holsterHandgun {};	
 	};
 	
     class Housing
