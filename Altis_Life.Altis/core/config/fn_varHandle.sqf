@@ -64,6 +64,7 @@ switch (_mode) do
 			case "goldbar": {"life_inv_goldbar"};
             case "storage1": {"life_inv_storage1"};
             case "storage2": {"life_inv_storage2"};
+			case "straßenkegel": {"life_inv_straßenkegel"};
 		};
 	};
 	
@@ -119,6 +120,7 @@ switch (_mode) do
 			case "life_inv_platinu": {"platinu"};
 			case "life_inv_platinp": {"platinp"};
             case "life_inv_storage2": {"storage2"};
+			case "life_inv_straßenkegel": {"straßenkegel"};
 		};
 	};
 };
