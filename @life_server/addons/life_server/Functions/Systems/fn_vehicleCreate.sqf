@@ -35,7 +35,9 @@ if(_side == independent){
     _side = "adac";
     };
 
-}else{
+};
+else
+{
     _side = switch(_side) do
     {
         case west:{"cop"};

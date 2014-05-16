@@ -21,7 +21,9 @@ if(_side == independent){
     _side = "adac";
     };
 
-}else{
+}
+	else
+{
     _side = switch(_side) do
     {
         case west:{"cop"};
@@ -35,7 +37,7 @@ _result = call compile format["%1", _result];
 if(isNil {((_result select 0) select 0)}) then
 {
 	_ret = [];
-}
+};
 	else
 {
 	_ret = (_result select 0);
