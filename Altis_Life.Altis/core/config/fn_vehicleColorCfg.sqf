@@ -83,7 +83,8 @@ switch (_vehicle) do
 			["textures\brumbrums\cop\suv.jpg","cop"],
             ["textures\brumbrums\med\notarzt.jpg","medic"],
             ["textures\brumbrums\civ\king_suv.jpg","civ"],
-            ["textures\brumbrums\cop\Blut_police_suv.jpg","cop"]
+            ["textures\brumbrums\cop\Blut_police_suv.jpg","cop"],
+			["textures\brumbrums\civ\redline.jpg","civ"]
 		];
 	};
 	

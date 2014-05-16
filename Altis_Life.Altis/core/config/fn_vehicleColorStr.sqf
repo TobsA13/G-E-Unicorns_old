@@ -71,6 +71,7 @@ switch (_vehicle) do
             case 4: {_color = "Medic";};
             case 5: {_color = "King";};
             case 6: {_color = "Blut";};
+			case 7: {_color = "Redline";};
 		};
 	};
 	
