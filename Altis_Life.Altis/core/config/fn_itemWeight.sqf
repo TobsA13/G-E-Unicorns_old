@@ -52,10 +52,6 @@ switch (_item) do
 	case "spikeStrip": {15};
 	case "rock": {6};
 	case "cement": {5};
-	case "goldbar": {12};
-	case "meth_kit": {10};
-	case "sodium_hydroxyde": {5};
-	case "crystal_meth": {4};
-	case "crystal_meth_pure": {4}; 
+	case "goldbar": {12}; 
 	default {1};
 };

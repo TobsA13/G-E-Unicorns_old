@@ -64,10 +64,6 @@ switch (_mode) do
 			case "goldbar": {"life_inv_goldbar"};
             case "storage1": {"life_inv_storage1"};
             case "storage2": {"life_inv_storage2"};
-			case "meth_kit": {"life_inv_meth_kit"};
-			case "sodium_hydroxide": {"life_inv_sodium_hydroxide"};
-			case "crystal_meth": {"life_inv_crystal_meth"};
-			case "crystal_meth_pure": {"life_inv_crystal_meth_pure"};
 		};
 	};
 	
@@ -123,10 +119,6 @@ switch (_mode) do
 			case "life_inv_platinu": {"platinu"};
 			case "life_inv_platinp": {"platinp"};
             case "life_inv_storage2": {"storage2"};
-			case "life_inv_meth_kit": {"meth_kit"};
-			case "life_inv_sodium_hydroxide": {"sodium_hydroxide"};
-			case "life_inv_crystal_meth": {"crystal_meth"};
-			case "life_inv_crystal_meth_pure": {"crystal_meth_pure"};
 		};
 	};
 };

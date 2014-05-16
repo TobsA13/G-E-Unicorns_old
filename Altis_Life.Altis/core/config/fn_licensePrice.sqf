@@ -35,5 +35,4 @@ switch (_type) do
 	case "platin": {15000};
 	case "cement": {6500};
     case "home": {100000};
-	case "meth": {50000};
 };
