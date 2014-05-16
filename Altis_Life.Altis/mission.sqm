@@ -9663,6 +9663,27 @@ class Mission
 			colorName="ColorBrown";
 		};
 	};
+	class Sensors
+	{
+		items=1;
+		class Item0
+		{
+			position[]={3350.1511,2.2483137,12969.473};
+			a=5;
+			b=10;
+			angle=37.242001;
+			rectangular=1;
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expActiv="copJO animate [""Door_1_rot"", 1];";
+			expDesactiv="copJO animate [""Door_1_rot"", 0];";
+			class Effects
+			{
+			};
+		};
+	};
 };
 class Intro
 {

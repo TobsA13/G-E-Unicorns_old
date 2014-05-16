@@ -53,6 +53,5 @@ switch (_item) do
 	case "rock": {6};
 	case "cement": {5};
 	case "goldbar": {12};
-	case "straßenkegel": {5};
 	default {1};
 };

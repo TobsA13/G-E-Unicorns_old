@@ -9,7 +9,7 @@ _l1 = parseText "Du bist auf dem Server von German Guardians.<br />    Unsere Ts
 _l2 = parseText "Die wichtigsten Aktionstasten findest du auf der<br />    Ingamemap unter Steuerung.";
 _l3 = parseText "Falls weitere Fragen bestehen kannst du gerne einen<br />    Admin kontaktieren!<br />    Die Admins sind:    TobsA13<br />                        Mad(gaming)<br />                        DerStalkerHD<br />                        Killerkexx.";
 _l4 = parseText "Features:  Housing<br />              ADAC<br />              Medic System<br />              Custom Skins<br />              schwache Version des Tasers (4 Schuss)<br />              u.v.m";
-_l5 = parseText "Strg + Shift + H für Händehoch<br />    und Shift + H für Waffeholstern.<br />";
+_l5 = parseText "Wir suchen auch noch Polizisten die schon etwas<br />    länger auf dem Server spielen.<br />    Bei Interesse einfach bei einem Admin auf TS<br />    melden.";
 
 
 

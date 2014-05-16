@@ -94,15 +94,6 @@ switch (true) do
         [_item] call life_fnc_placeStorage;
     };
 	
-	case (_item == "straßenkegel"):
-	{
-		if(!isNull life_straßenkegel) exitWith {hint "Du stellst schon einen Straßenkegel auf!"};
-		if(([false,_item,1] call life_fnc_handleInv)) then
-		{
-			[] spawn life_fnc_straßenkegel;
-		};
-	};
-	
 	default
 	{
 		hint "This item isn't usable.";

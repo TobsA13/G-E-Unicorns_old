@@ -86,7 +86,6 @@ class Life_Client_Core
 		class robAction {};
 		class sellTurtle {};
         class putHandsUp {};
-		class packupStraßenkegel {};
 	};
 	
 	class Config
@@ -288,7 +287,6 @@ class Life_Client_Core
 		class sirenLights {};
 		class licenseCheck {};
 		class licensesRead {};
-		class copOpener {};
 
 		class ADACLights {};        
         class ADACsirenLights {};
@@ -344,7 +342,6 @@ class Life_Client_Core
 		class lockpick {};
 		class spikeStrip {};
 		class jerryRefuel {};
-		class straßenkegel {};
 	};
     
 	
