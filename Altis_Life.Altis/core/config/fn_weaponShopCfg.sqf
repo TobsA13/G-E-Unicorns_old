@@ -1,4 +1,4 @@
-#include <macro.h>
+﻿#include <macro.h>
 /*
 	File: fn_weaponShopCfg.sqf
 	Author: Bryan "Tonic" Boardwine
@@ -236,11 +236,12 @@ switch(_shop) do
 			{
 		["Notarztausrüstung",
 			[
-				["ItemGPS",nil,100],
+				["ItemGPS",nil,0],
 				["FirstAidKit",nil,0],
-				["NVGoggles",nil,100],
-				["Chemlight_red",nil,10],
-                ["SmokeShellPurple",nil,10]
+				["Medikit",nil,0],
+				["NVGoggles",nil,0],
+				["Chemlight_red",nil,0],
+                ["SmokeShellPurple",nil,0]
 			]
 		];
 			};
