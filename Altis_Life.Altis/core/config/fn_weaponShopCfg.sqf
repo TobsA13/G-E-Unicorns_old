@@ -30,15 +30,15 @@ switch(_shop) do
 				["Polizeishop",
 					[
 						["hgun_P07_snds_F","Stun Pistol",0],
-						["Binocular",nil,150],
-						["ItemGPS",nil,100],
+						["Binocular",nil,0],
+						["ItemGPS",nil,0],
 						["ToolKit",nil,250],
-                        ["SmokeShellOrange",nil,50],
-                        ["Chemlight_blue",nil,300],
+                        ["SmokeShellOrange",nil,0],
+                        ["Chemlight_blue",nil,0],
 						["muzzle_snds_L",nil,650],
-						["FirstAidKit",nil,150],
-						["Medikit",nil,1000],
-						["NVGoggles",nil,2000],
+						["FirstAidKit",nil,0],
+						["Medikit",nil,100],
+						["NVGoggles",nil,0],
 						["16Rnd_9x21_Mag",nil,50]
 					]
 				];
