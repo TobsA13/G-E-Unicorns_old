@@ -1,4 +1,4 @@
-/*
+﻿/*
 	Copyright © 2013 Bryan "Tonic" Boardwine, All rights reserved
 	See http://armafiles.info/life/list.txt for servers that are permitted to use this code.
 	File: fn_sessionCreate.sqf
@@ -27,5 +27,4 @@ switch (playerSide) do
 	};
 };
 
-[_packet,"TON_fnc_add",false,false] spawn life_fnc_MP;
 [_packet,"BRUUUDIS_fnc_add",false,false] spawn life_fnc_MP;
