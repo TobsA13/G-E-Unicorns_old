@@ -86,7 +86,6 @@ class Life_Client_Core
 		class robAction {};
 		class sellTurtle {};
         class putHandsUp {};
-		class packupstraßenkegel {};
 	};
 	
 	class Config
@@ -343,7 +342,6 @@ class Life_Client_Core
 		class lockpick {};
 		class spikeStrip {};
 		class jerryRefuel {};
-		class straßenkegel {};
 	};
     
 	

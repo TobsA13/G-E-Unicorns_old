@@ -31,8 +31,6 @@ life_interrupted = false;
 life_respawned = false;
 life_removeWanted = false;
 
-life_straßenkegel = ObjNull;
-
 
 life_hands_up = false;
 life_n_holstered = false;
@@ -170,8 +168,7 @@ life_inv_items =
 	"life_inv_cement",
 	"life_inv_goldbar",
     "life_inv_storage1",
-    "life_inv_storage2",
-	"life_inv_straßenkegel"
+    "life_inv_storage2"
 ];
 
 //Setup variable inv vars.
@@ -252,8 +249,7 @@ sell_array =
 	["glass",1450],
 	["fuelF",500],
 	["spikeStrip",1200],
-	["cement",1950],
-	["straßenkegel",25]
+	["cement",1950]
 ];
 __CONST__(sell_array,sell_array);
 
@@ -280,8 +276,7 @@ buy_array =
 	["peach",68],
 	["spikeStrip",2500],
     ["storage1",50000],
-    ["storage2",250000],
-	["straßenkegel",50]
+    ["storage2",250000]
 ];
 __CONST__(buy_array,buy_array);
 
