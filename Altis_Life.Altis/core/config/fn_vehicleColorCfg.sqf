@@ -83,8 +83,7 @@ switch (_vehicle) do
 			["textures\brumbrums\cop\suv.jpg","cop"],
             ["textures\brumbrums\med\notarzt.jpg","medic"],
             ["textures\brumbrums\civ\king_suv.jpg","civ"],
-            ["textures\brumbrums\cop\Blut_police_suv.jpg","cop"],
-			["textures\brumbrums\civ\redline.jpg","civ"]
+            ["textures\brumbrums\cop\Blut_police_suv.jpg","cop"]
 		];
 	};
 	
@@ -160,7 +159,6 @@ switch (_vehicle) do
 		_ret = 
 		[
 			["textures\brumbrums\cop\SEK_Hunter.jpg","cop"],
-			["textures\brumbrums\cop\drogenfahndung_hunter.jpg","cop"],
 			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","fed"]
 		];
 	};

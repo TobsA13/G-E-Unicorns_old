@@ -30,11 +30,10 @@ life_knockout = false;
 life_interrupted = false;
 life_respawned = false;
 life_removeWanted = false;
-life_holstered = false;
+
 
 life_hands_up = false;
 life_n_holstered = false;
-
 
 //Anticheat
 anticheat_sell = 0;
@@ -169,7 +168,7 @@ life_inv_items =
 	"life_inv_cement",
 	"life_inv_goldbar",
     "life_inv_storage1",
-    "life_inv_storage2",
+    "life_inv_storage2"
 ];
 
 //Setup variable inv vars.
@@ -241,7 +240,7 @@ sell_array =
 	["cocaine",3000],
 	["cocainep",5000],
 	["platinu",500],
-	["platinp",2250],
+	["platinp",2750],
 	["diamond",750],
 	["diamondc",2000],
 	["iron_r",3200],
@@ -250,7 +249,7 @@ sell_array =
 	["glass",1450],
 	["fuelF",500],
 	["spikeStrip",1200],
-	["cement",1950],
+	["cement",1950]
 ];
 __CONST__(sell_array,sell_array);
 
@@ -328,23 +327,23 @@ __CONST__(life_weapon_shop_array,life_weapon_shop_array);
 
 life_garage_prices =
 [
-	["B_QuadBike_01_F",250],
-	["C_Hatchback_01_F",750],
-	["C_Offroad_01_F", 1250],
-	["B_G_Offroad_01_F",1750],
-	["C_SUV_01_F",2500],
-	["C_Van_01_transport_F",5000],
+	["B_QuadBike_01_F",550],
+	["C_Hatchback_01_F",1500],
+	["C_Offroad_01_F", 2500],
+	["B_G_Offroad_01_F",3500],
+	["C_SUV_01_F",5250],
+	["C_Van_01_transport_F",7890],
 	["C_Hatchback_01_sport_F",2350],
 	["C_Van_01_fuel_F",4500],
-	["I_Heli_Transport_02_F",50000],
+	["I_Heli_Transport_02_F",100000],
 	["C_Van_01_box_F",9000],
 	["I_Truck_02_transport_F",12000],
 	["I_Truck_02_covered_F",14500],
-	["B_Truck_01_transport_F",25000],
-	["B_Truck_01_box_F", 25000],
+	["B_Truck_01_transport_F",25650],
+	["B_Truck_01_box_F", 35000],
 	["O_MRAP_02_F",45000],
-	["B_Heli_Light_01_F",35000],
-	["O_Heli_Light_02_unarmed_F",40000],
+	["B_Heli_Light_01_F",45000],
+	["O_Heli_Light_02_unarmed_F",65000],
 	["C_Rubberboat",400],
 	["C_Boat_Civil_01_F",4500],
 	["B_Boat_Transport_01_F",450],

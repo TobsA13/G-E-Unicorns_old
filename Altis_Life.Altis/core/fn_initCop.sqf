@@ -64,9 +64,9 @@ if(str(player) in ["cop_1","cop_2","cop_3","cop_4"]) then {
 {
 while {true} do
 {
-waitUntil {uniform player == "U_B_CombatUniform_mcam_worn"};
+waitUntil {uniform player == "U_Rangemaster"};
 player setObjectTextureGlobal [0,"textures\skins\SEK_fertig.jpg"];
-waitUntil {uniform player != "U_B_CombatUniform_mcam_worn"};
+waitUntil {uniform player != "U_Rangemaster"};
 };
 };
 }else{[] spawn

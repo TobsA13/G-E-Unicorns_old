@@ -198,10 +198,14 @@ switch (_code) do
 			{
 				if(!life_action_inUse) then
 			    {
-			    	if ((time - life_holster_time) > 4) then {
-				life_holster_time = time;
-				[] spawn life_fnc_holsterHandgun;
-			};
+			    	life_action_inUse = true;
+			    	[] spawn
+			    	{
+			    		[!life_n_holstered] call life_fnc_holsterWeapons;
+			    		
+			    		sleep 4;
+			    		life_action_inUse = false;
+			    	};
 			    };
 			};
 			case (_shift && !_alt && _ctrlKey):
