@@ -147,7 +147,8 @@ switch (_vehicle) do
 		switch (_index) do
 		{
 			case 0: {_color = "SEK"};
-			case 1: {_color = "Black"};
+			case 1: {_color = "Drogenfahndung"};
+			case 2: {_color = "Black"};
 		};
 	};
 	

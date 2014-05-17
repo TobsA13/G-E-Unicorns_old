@@ -11,6 +11,7 @@ _fnc_scriptName = "Player Synchronization";
 private["_exit"];
 if(isNil "life_session_time") then {life_session_time = false;};
 if(life_session_time) exitWith {hint "You have already used the sync option, you can only use this feature once every 5 minutes.";};
+if(life_holstered) exitWith {titleText ["Bitte deine Zweiwaffe in die Hand um zu Speichern!","PLAIN"];};
 
 switch (typeName life_fnc_MP_packet) do
 {

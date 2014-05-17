@@ -30,10 +30,8 @@ life_knockout = false;
 life_interrupted = false;
 life_respawned = false;
 life_removeWanted = false;
+life_holstered = false;
 
-
-life_hands_up = false;
-life_n_holstered = false;
 
 //Anticheat
 anticheat_sell = 0;
@@ -168,7 +166,11 @@ life_inv_items =
 	"life_inv_cement",
 	"life_inv_goldbar",
     "life_inv_storage1",
-    "life_inv_storage2"
+    "life_inv_storage2",
+	"life_inv_meth_kit",
+	"life_inv_sodium_hydroxyde",
+	"life_inv_crystal_meth",
+	"life_inv_crystal_meth_pure"
 ];
 
 //Setup variable inv vars.
@@ -199,7 +201,8 @@ life_licenses =
 	["license_civ_cement","civ"],
 	["license_civ_platin","civ"],
 	["license_med_air","med"],
-    ["license_civ_home", "civ"]
+    ["license_civ_home", "civ"],
+	["license_civ_meth","civ"]
 ];
 
 //Setup License Variables
@@ -207,7 +210,7 @@ life_licenses =
 
 life_dp_points = ["dp_1","dp_2","dp_3","dp_4","dp_5","dp_6","dp_7","dp_8","dp_9","dp_10","dp_11","dp_12","dp_13","dp_14","dp_15","dp_15","dp_16","dp_17","dp_18","dp_19","dp_20","dp_21","dp_22","dp_23","dp_24","dp_25"];
 //[shortVar,reward]
-life_illegal_items = [["heroinu",1200],["heroinp",2500],["cocaine",1500],["cocainep",3500],["marijuana",2000],["turtle",3000]];
+life_illegal_items = [["heroinu",1200],["heroinp",2500],["cocaine",1500],["cocainep",3500],["marijuana",2000],["turtle",3000],["meth_kit",2500],["crystal_meth",3000],["sodium_hydroxyde",2000],["crystal_meth_pure",10000]];
 
 
 /*
@@ -249,7 +252,10 @@ sell_array =
 	["glass",1450],
 	["fuelF",500],
 	["spikeStrip",1200],
-	["cement",1950]
+	["cement",1950],
+	["sodium_hydroxyde",10000],
+	["meth_kit",12500],
+	["crystal_meth_pure",25000]
 ];
 __CONST__(sell_array,sell_array);
 
@@ -276,7 +282,9 @@ buy_array =
 	["peach",68],
 	["spikeStrip",2500],
     ["storage1",50000],
-    ["storage2",250000]
+    ["storage2",250000],
+	["meth_kit",10000],
+	["hydroxyde_sodium_anhydre",5000]
 ];
 __CONST__(buy_array,buy_array);
 

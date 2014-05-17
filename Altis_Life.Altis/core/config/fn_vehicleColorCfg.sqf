@@ -160,6 +160,7 @@ switch (_vehicle) do
 		_ret = 
 		[
 			["textures\brumbrums\cop\SEK_Hunter.jpg","cop"],
+			["textures\brumbrums\cop\drogenfahndung_hunter.jpg","cop"],
 			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","fed"]
 		];
 	};
