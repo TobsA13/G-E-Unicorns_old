@@ -45,6 +45,23 @@
 				x = safeZoneX+0.055; y = safeZoneY+safeZoneH-0.055;
 				w = 0.05; h = 0.05;
 			};
+            class serverde
+			{
+				type=0;
+				idc=-1;
+				style=0;
+				x=safeZoneX+safeZoneH-0.30;
+				y=safeZoneY+safeZoneH-0.055;
+				w=0.6;
+				h=0.05;
+				sizeEx=0.03;
+				size=1;
+				font="PuristaSemibold";
+				colorBackground[]={0,0,0,0};
+				colorText[] = { 1 , 1 , 1 , 1 };
+				shadow=true;
+				text="Unser Forum: forum.german-guardians.de Unser TS: german-guardians.de";
+			};
 		};
 		
 		class controls

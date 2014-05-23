@@ -24,7 +24,7 @@ life_bail_paid = false;
 life_impound_inuse = false;
 life_action_inUse = false;
 life_spikestrip = ObjNull;
-life_respawn_timer = 1; //Scaled in minutes
+life_respawn_timer = 3; //Scaled in minutes
 life_has_insurance = false;
 life_knockout = false;
 life_interrupted = false;
@@ -32,6 +32,15 @@ life_respawned = false;
 life_removeWanted = false;
 life_holstered = false;
 
+marker_mapesp = false;
+
+life_hands_up = false;
+life_n_holstered = false;
+
+life_inv_meth_kit = ObjNull;
+life_inv_sodium_hydroxyde = ObjNull;
+life_inv_crystal_meth = ObjNull;
+life_inv_crystal_meth_pure = ObjNull;
 
 //Anticheat
 anticheat_sell = 0;
@@ -88,9 +97,9 @@ life_thirst = 100;
 life_hunger = 100;
 __CONST__(life_paycheck_period,5); //Five minutes
 life_cash = 0;
-__CONST__(life_impound_car,450);
-__CONST__(life_impound_boat,650);
-__CONST__(life_impound_air,850);
+__CONST__(life_impound_car,750);
+__CONST__(life_impound_boat,850);
+__CONST__(life_impound_air,1000);
 life_istazed = false;
 life_my_gang = ObjNull;
 
@@ -105,13 +114,13 @@ switch (playerSide) do
 	};
 	case civilian: 
 	{
-		life_atmcash = 3000; //Starting Bank Money
+		life_atmcash = 5000; //Starting Bank Money
 		life_paycheck = 350; //Paycheck Amount
 	};
 	
 	case independent: {
 		life_atmcash = 6500;
-		life_paycheck = 1000;
+		life_paycheck = 2500;
 	};
 };
 
@@ -329,7 +338,17 @@ life_weapon_shop_array =
 	["SMG_01_F",1500],
 	["arifle_Mk20C_F",4500],
 	["30Rnd_45ACP_Mag_SMG_01",60],
-	["30Rnd_9x21_Mag",30]
+	["30Rnd_9x21_Mag",30],
+	["optic_LRPS",5000],
+	["srifle_GM6_F",50000],
+	["5Rnd_127x108_Mag",250],
+	["SMG_01_F",20000],
+	["30Rnd_45ACP_Mag_SMG_01",150],
+	["hgun_Pistol_heavy_01_F",1500],
+	["11Rnd_45ACP_Mag",50],
+	["optic_MRD",250],
+	["optic_DMS",2500],
+	["arifle_MXM_F",40000]
 ];
 __CONST__(life_weapon_shop_array,life_weapon_shop_array);
 
@@ -358,7 +377,9 @@ life_garage_prices =
 	["C_Boat_Civil_01_police_F",3500],
 	["B_Boat_Armed_01_minigun_F",16500],
 	["B_SDV_01_F",25000],
-	["B_MRAP_01_F",7500]
+	["B_MRAP_01_F",7500],
+	["O_Truck_03_transport_F",30000],
+	["I_MRAP_03_F",7500]
 ];
 __CONST__(life_garage_prices,life_garage_prices);
 
@@ -387,6 +408,8 @@ life_garage_sell =
 	["C_Boat_Civil_01_police_F",4950],
 	["B_Boat_Armed_01_minigun_F",21000],
 	["B_SDV_01_F",45000],
-	["B_MRAP_01_F",10000]
+	["B_MRAP_01_F",10000],
+	["O_Truck_03_transport_F",100000],
+	["I_MRAP_03_F",25000]
 ];
 __CONST__(life_garage_sell,life_garage_sell);

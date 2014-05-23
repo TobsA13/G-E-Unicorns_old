@@ -168,4 +168,16 @@ life_clothing_purchase = [-1,-1,-1,-1,-1];
 if(playerSide == west) then
 {
 	[] call life_fnc_saveGear;
+    
+    if(uniform player == "U_B_CombatUniform_mcam_worn")then{
+    player setObjectTextureGlobal [0,"textures\skins\SEK_fertig.jpg"];};
+
+    if(uniform player == "U_Rangemaster")then{
+    player setObjectTextureGlobal [0,"textures\skins\pol.jpg"];};
+};
+
+if(playerSide == independent) then
+{    
+    if(uniform player == "U_I_CombatUniform")then{
+    player setObjectTextureGlobal [0,"textures\skins\saniuniform.jpg"];};
 };

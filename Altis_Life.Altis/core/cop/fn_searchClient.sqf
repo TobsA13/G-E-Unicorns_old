@@ -11,7 +11,7 @@ if(isNull _cop) exitWith {};
 _inv = [];
 _robber = false;
 //Illegal items
-{
+/*{
 	_var = [_x select 0,0] call life_fnc_varHandle;
 	_val = missionNamespace getVariable _var;
 	if(_val > 0) then
@@ -19,7 +19,7 @@ _robber = false;
 		_inv set[count _inv,[_x select 0,_val]];
 		[false,(_x select 0),_val] call life_fnc_handleInv;
 	};
-} foreach life_illegal_items;
+} foreach life_illegal_items;*/
 
 if(!life_use_atm) then 
 {

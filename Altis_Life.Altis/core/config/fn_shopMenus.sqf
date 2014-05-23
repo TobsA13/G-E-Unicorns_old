@@ -28,7 +28,7 @@ switch (_shop) do
 	
 	case "cop":
 	{
-		ctrlSetText[2505,"Altis Cop Shop"];
+		ctrlSetText[2505,"Polizeianwärter Shop"];
 		ctrlShow[2503,false];
 	};
 	
@@ -64,7 +64,7 @@ switch (_shop) do
 	
 	case "sergeant":
 	{
-		ctrlSetText[2505,"Sergeants Shop"];
+		ctrlSetText[2505,"Hauptkommissar/SEK Shop"];
 		ctrlShow[2503,false];
 	};
 	
@@ -76,13 +76,31 @@ switch (_shop) do
 	
 	case "officer":
 	{
-		ctrlSetText[2505,"Patrol Officer Shop"];
+		ctrlSetText[2505,"Kommissar Shop"];
 		ctrlShow[2503,false];
 	};
 	
 	case "admin":
 	{
 		ctrlSetText[2505,"Admin Shop"];
+	};
+	
+	case "polizei_meister":
+	{
+		ctrlSetText[2505,"Polizeihauptmeister Shop"];
+		ctrlShow[2503,false];
+	};
+	
+	case "kommissar_anwärter":
+	{
+		ctrlSetText[2505,"Kommissaranwärter Shop"];
+		ctrlShow[2503,false];
+	};
+	
+	case "ober_kommissar":
+	{
+		ctrlSetText[2505,"Oberkommissar Shop"];
+		ctrlShow[2503,false];
 	};
 };
 

@@ -27,7 +27,6 @@ switch (_vehicle) do
 			case 8: {_color = "Taxi"};
             case 9: {_color = "ADAC"};
             case 10: {_color = "Unicorn"};
-            case 11: {_color = "Gay"};
 		};
 	};
 	
@@ -72,6 +71,8 @@ switch (_vehicle) do
             case 5: {_color = "King";};
             case 6: {_color = "Blut";};
 			case 7: {_color = "Redline";};
+            case 8: {_color = "Carbon";};
+            case 9: {_color = "Superman";};
 		};
 	};
 	
@@ -190,7 +191,7 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "SEK"};
+			case 0: {_color = "Überwachung"};
 		};
 	};
 	
@@ -220,6 +221,22 @@ switch (_vehicle) do
 			case 0: {_color = "Regular"};
 		};
 	};
+	
+	case "I_MRAP_03_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Regular"};
+		};
+	};
+	
+	case "B_Truck_01_ammo_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Regular"};
+		};
+	};	
 };
 
 _color;

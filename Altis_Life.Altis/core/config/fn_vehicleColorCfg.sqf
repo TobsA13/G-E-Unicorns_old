@@ -35,7 +35,8 @@ switch (_vehicle) do
 			[_path + "hatchback_01_ext_sport04_co.paa","civ"],
 			[_path + "hatchback_01_ext_sport05_co.paa","civ"],
 			[_path + "hatchback_01_ext_sport06_co.paa","civ"],
-			["#(ai,64,64,1)Fresnel(1.3,7)","cop"]
+			["#(ai,64,64,1)Fresnel(1.3,7)","cop"],
+            ["textures\brumbrums\civ\Fire_hatchback.jpg","civ"]
 		];
 	};
 		
@@ -53,8 +54,7 @@ switch (_vehicle) do
 			["#(ai,64,64,1)Fresnel(1.3,7)","cop"],
 			["#(argb,8,8,3)color(0.6,0.3,0.01,1)","civ"],
             ["textures\brumbrums\adac\adac_offroad.jpg","adac"],
-            ["textures\brumbrums\civ\ziv_offroad.jpg","civ"],
-            ["textures\brumbrums\civ\ziv_offroad_Gay.jpg","civ"]
+            ["textures\brumbrums\civ\ziv_offroad.jpg","civ"]
 		];
 	};
 	
@@ -84,7 +84,9 @@ switch (_vehicle) do
             ["textures\brumbrums\med\notarzt.jpg","medic"],
             ["textures\brumbrums\civ\king_suv.jpg","civ"],
             ["textures\brumbrums\cop\Blut_police_suv.jpg","cop"],
-			["textures\brumbrums\civ\redline.jpg","civ"]
+			["textures\brumbrums\civ\redline.jpg","civ"],
+            ["textures\brumbrums\civ\carbon_suv_V3.jpg","civ"],
+            ["textures\brumbrums\civ\superman.jpg","civ"]
 		];
 	};
 	
@@ -195,7 +197,7 @@ switch (_vehicle) do
 	{
 		_ret = 
 		[
-			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","cop"]
+			["textures\brumbrums\cop\hellcat_police.jpg","cop"]
 		];
 	};
 	
@@ -208,6 +210,22 @@ switch (_vehicle) do
 	};
 	
 	case "O_Heli_Attack_02_black_F":
+	{
+		_ret = 
+		[
+			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","fed"]
+		];
+	};
+	
+	case "I_MRAP_03_F":
+	{
+		_ret = 
+		[
+			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","cop"]
+		];
+	};
+	
+	case "B_Truck_01_ammo_F":
 	{
 		_ret = 
 		[

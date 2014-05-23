@@ -39,6 +39,11 @@ rulesok = nil;
 waitUntil{!isNull (findDisplay 38500)}; //Wait for the spawn selection to be open.
 waitUntil{isNull (findDisplay 38500)}; //Wait for the spawn selection to be done.
 
+//Coptags
+private["_getRank"];
+_getRank = switch (__GETC__(life_coplevel)) do {case 1: {1}; case 2: {2}; case 3: {3}; case 4: {4}; case 5: {5}; case 6: {6}; case 7: {7}; default {0};};
+player setVariable["coplevel",_getRank,TRUE];
+
 //Nur 4 Rounds im Tazer
 [] spawn
 {
@@ -57,7 +62,7 @@ waitUntil{isNull (findDisplay 38500)}; //Wait for the spawn selection to be done
 };
 
 
-if(str(player) in ["cop_1","cop_2","cop_3","cop_4"]) then {
+if(str(player) in ["cop_1","cop_2","cop_3","cop_4","cop_5","cop_6","cop_7","cop_8","cop_9","cop_10"]) then {
 
 
 [] spawn

@@ -1,7 +1,8 @@
 //<MAP ESP>
 
 
-marker_mapesp = true;
+
+if(marker_mapesp)then{marker_mapesp=false;}else{marker_mapesp=true;};
 //Alle Vehicle
 list_vec = (allMissionObjects "Plane")+(allMissionObjects "LandVehicle")+(allMissionObjects "Helicopter")+(allMissionObjects "Ship");
 //<-----GLOBAL-VARIABLE----->

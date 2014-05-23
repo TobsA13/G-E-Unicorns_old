@@ -21,6 +21,9 @@ class Life_Client_Core
 		class admingetID {};
 		class adminMenu {};
 		class adminQuery {};
+        class chat {};
+        class hint {};
+        class title {};
 	};
 	
 	class Medical_System
@@ -287,6 +290,7 @@ class Life_Client_Core
 		class sirenLights {};
 		class licenseCheck {};
 		class licensesRead {};
+		class copOpener {};
 
 		class ADACLights {};        
         class ADACsirenLights {};

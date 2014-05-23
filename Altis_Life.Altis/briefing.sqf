@@ -486,10 +486,10 @@ Alle Polizisten können die Höhe des Bußgeldes selbst bestimmen wenn ein minim
 
 				Polizeiränge:<br/>
 				1. Leitender Polizeidirektor (Ltd.PD)<br/>
-				2. Polizeidirektor (PD)<br/>
-				3. Hauptkommissar (PHK)<br/>
-				4. Oberkommissar (POK)<br/>
+				2. Hauptkommissar (PHK)<br/>
+				3. Oberkommissar (POK)<br/>
 				5. Kommissar (PK)<br/>
+				4. Kommissaranwärter (PKA)<br/>
 				6. Polizeihauptmeister (PHM)<br/>
 				7. Polizeianwärter (PA)<br/><br/>
 				"
@@ -573,7 +573,8 @@ Alle Polizisten können die Höhe des Bußgeldes selbst bestimmen wenn ein minim
 				6. SDAR Rifle<br/>
 				7. Sting SMG<br/>
 				8. Silenced P07 (Taser)<br/>
-				9. Jede Art von Sprengstoff<br/><br/>
+				9. Alle Sturmgewehre,SMGs und DMRs<br/>
+				10. Jede Art von Sprengstoff<br/><br/>
 				"
 		]
 	];

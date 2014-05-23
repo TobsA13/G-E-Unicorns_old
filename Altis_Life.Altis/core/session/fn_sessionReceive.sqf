@@ -72,6 +72,9 @@ switch (playerSide) do
 		[] spawn life_fnc_civLoadGear;
 		__CONST__(life_coplevel,0);
         life_houses = (_session select 9);
+        {
+        diag_log(_x);
+        } forEach life_houses;
         life_houses_markers = [];
 	};
 	

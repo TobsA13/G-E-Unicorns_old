@@ -22,3 +22,6 @@ hintC_arr_EH = findDisplay 72 displayAddEventHandler ["unload", {
 		hintSilent "";
 	};
 }];
+
+sleep 20;
+titleText["Unser Forum: forum.german-guardians.de Unser TS: german-guardians.de","PLAIN"];

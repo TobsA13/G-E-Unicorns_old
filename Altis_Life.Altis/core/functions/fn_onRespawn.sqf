@@ -1,3 +1,5 @@
+#include <macro.h>
+
 /*
 	File: fn_onRespawn.sqf
 	Author: Bryan "Tonic" Boardwine
@@ -45,6 +47,13 @@ switch(playerSide) do
         life_actions = life_actions + [player addAction["<t color='#00FF00'>House Menu</t>",life_fnc_houseMenu,cursorTarget,10,false,false,"",
         '!isNull cursorTarget && (player distance cursorTarget) < 20 && cursorTarget isKindOf "House" && ([typeOf cursorTarget] call life_fnc_housePrice) > -1 && !(([cursorTarget] call life_fnc_getBuildID) in life_public_houses)']];
 	};
+};
+
+//Coptags
+if(playerSide == west) then {
+	private["_getRank"];
+	_getRank = switch (__GETC__(life_coplevel)) do {case 1: {1}; case 2: {2}; case 3: {3}; case 4: {4}; case 5: {5}; case 6: {6}; case 7: {7}; default {0};};
+	player setVariable["coplevel",_getRank,TRUE];
 };
 
 if(life_is_arrested) then

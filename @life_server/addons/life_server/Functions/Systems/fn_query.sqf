@@ -31,6 +31,28 @@ if(!isNil "hc_1" && {life_HC_isActive}) exitWith {
 
 _ret = [_uid,_side] call DB_fnc_query;
 
+if(count _ret > 0) then {
+	_retHouses = [_uid,_side] call BRUUUDIS_fnc_queryPlayerHouses;
+	waitUntil {typeName _retHouses == "ARRAY" OR typeName _retHouses == "STRING" OR isNil "_retHouses"};
+
+	_ret set [count _ret, _retHouses];
+	
+	diag_log "--------------SESSION--------------";
+	diag_log format["_ret 1: %1 (%2)", (_ret select 0), typeName (_ret select 0)];
+	diag_log format["_ret 1: %1 (%2)", (_ret select 1), typeName (_ret select 1)];
+	diag_log format["_ret 2: %1 (%2)", (_ret select 2), typeName (_ret select 2)];
+	diag_log format["_ret 3: %1 (%2)", (_ret select 3), typeName (_ret select 3)];
+	diag_log format["_ret 4: %1 (%2)", (_ret select 4), typeName (_ret select 4)];
+	diag_log format["_ret 5: %1 (%2)", (_ret select 5), typeName (_ret select 5)];
+	diag_log format["_ret 6: %1 (%2)", (_ret select 6), typeName (_ret select 6)];
+	diag_log format["_ret 7: %1 (%2)", (_ret select 7), typeName (_ret select 7)];
+	diag_log format["_ret 8: %1 (%2)", (_ret select 8), typeName (_ret select 8)];
+	diag_log format["_ret 9: %1 (%2)", (_ret select 9), typeName (_ret select 9)];
+	diag_log "------------SESSION END------------";
+	
+};
+
+
 if(!isNil "_ret") then
 {
 	[_ret,"life_fnc_sessionReceive",_ownerID,false] spawn life_fnc_MP;

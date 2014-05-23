@@ -27,7 +27,7 @@ switch(_shop) do
 			case (playerSide != west): {"You are not a cop!"};
 			default
 			{
-				["Polizeishop",
+				["Polizeianwärter Shop",
 					[
 						["hgun_P07_snds_F","Stun Pistol",0],
 						["Binocular",nil,0],
@@ -45,23 +45,144 @@ switch(_shop) do
 			};
 		};
 	};
+	
+	case "polizei_meister":
+	{
+		switch(true) do
+		{
+			case (playerSide != west): {"You are not a cop!"};
+			case (__GETC__(life_coplevel) < 2): {"Du bist noch kein Polizeihauptmeister!"};
+			default
+			{
+				["Polizeihauptmeister Shop",
+					[
+						["hgun_P07_snds_F","Stun Pistol",0],
+						["Binocular",nil,0],
+						["ItemGPS",nil,0],
+						["ToolKit",nil,250],
+                        ["SmokeShellOrange",nil,50],
+                        ["Chemlight_blue",nil,300],
+						["muzzle_snds_L",nil,650],
+						["FirstAidKit",nil,0],
+						["Medikit",nil,100],
+						["NVGoggles",nil,0],
+						["16Rnd_9x21_Mag",nil,50],
+						["MineDetector",nil,1000],
+						["muzzle_snds_H",nil,2750]
+					]
+				];
+			};
+		};
+	};
+	
+	case "kommissar_anwärter":
+	{
+		switch(true) do
+		{
+			case (playerSide != west): {"You are not a cop!"};
+			case (__GETC__(life_coplevel) < 3): {"Du bist noch kein Kommissaranwärter"};
+			default
+			{
+				["Kommissaranwärter Shop",
+					[
+						["hgun_P07_snds_F","Stun Pistol",0],
+						["hgun_Pistol_heavy_01_F",nil,2500],
+						["Binocular",nil,0],
+						["ItemGPS",nil,0],
+						["ToolKit",nil,250],
+                        ["SmokeShellOrange",nil,50],
+                        ["Chemlight_blue",nil,300],
+						["muzzle_snds_L",nil,650],
+						["FirstAidKit",nil,0],
+						["Medikit",nil,100],
+						["NVGoggles",nil,0],
+						["SMG_02_ACO_F",nil,30000],
+						["16Rnd_9x21_Mag",nil,50],
+						["11Rnd_45ACP_Mag",nil,50],
+						["optic_MRD",nil,250],
+						["optic_Aco",nil,850],
+						["MineDetector",nil,1000],
+						["muzzle_snds_H",nil,2750],
+						["30Rnd_9x21_Mag",nil,250]
+
+					]
+				];
+			};
+		};
+	};
 
 	case "cop_patrol":
 	{
 		switch(true) do
 		{
 			case (playerSide != west): {"You are not a cop!"};
-			case (__GETC__(life_coplevel) < 2): {"You are not at a patrol officer rank!"};
+			case (__GETC__(life_coplevel) < 4): {"Du bist noch kein Kommissar"};
 			default
 			{
-				["Patrol Officer Shop",
+				["Kommissar Shop",
 					[
+						["hgun_P07_snds_F","Stun Pistol",0],
+						["hgun_Pistol_heavy_01_F",nil,2500],
+						["Binocular",nil,0],
+						["ItemGPS",nil,0],
+						["ToolKit",nil,250],
+                        ["SmokeShellOrange",nil,50],
+                        ["Chemlight_blue",nil,300],
+						["muzzle_snds_L",nil,650],
+						["FirstAidKit",nil,0],
+						["Medikit",nil,100],
+						["NVGoggles",nil,0],
+						["16Rnd_9x21_Mag",nil,50],
+						["11Rnd_45ACP_Mag",nil,50],
+						["SMG_02_ACO_F",nil,30000],
+						["arifle_MX_F",nil,35000],
+						["MineDetector",nil,1000],
+						["acc_flashlight",nil,750],
+						["optic_Holosight",nil,1200],
+						["optic_Aco",nil,850],
+						["optic_MRD",nil,250],
+						["muzzle_snds_H",nil,2750],
+						["30Rnd_9x21_Mag",nil,250],
+						["30Rnd_65x39_caseless_mag",nil,130]
+					]
+				];
+			};
+		};
+	};
+	
+	case "ober_kommissar":
+	{
+		switch(true) do
+		{
+			case (playerSide != west): {"You are not a cop!"};
+			case (__GETC__(life_coplevel) < 5): {"Du bist noch kein Oberkommissar"};
+			default
+			{
+				["Oberkommissar Shop",
+					[
+						["hgun_P07_snds_F","Stun Pistol",0],
+						["hgun_Pistol_heavy_01_F",nil,2500],
+						["Binocular",nil,0],
+						["ItemGPS",nil,0],
+						["ToolKit",nil,250],
+                        ["SmokeShellOrange",nil,50],
+                        ["Chemlight_blue",nil,300],
+						["muzzle_snds_L",nil,650],
+						["FirstAidKit",nil,0],
+						["Medikit",nil,100],
+						["NVGoggles",nil,0],
+						["16Rnd_9x21_Mag",nil,50],
+						["11Rnd_45ACP_Mag",nil,50],
 						["arifle_MX_F",nil,35000],
 						["SMG_02_ACO_F",nil,30000],
+						["arifle_MXM_F",nil,40000],
 						["MineDetector",nil,1000],
 						["acc_flashlight",nil,750],
 						["optic_Holosight",nil,1200],
 						["optic_Arco",nil,2500],
+						["optic_Aco",nil,850],
+						["optic_MRD",nil,250],
+						["optic_DMS",nil,2500],
 						["muzzle_snds_H",nil,2750],
 						["30Rnd_65x39_caseless_mag",nil,130],
 						["30Rnd_9x21_Mag",nil,250]
@@ -76,20 +197,46 @@ switch(_shop) do
 		switch(true) do
 		{
 			case (playerSide != west): {"You are not a cop!"};
-			case (__GETC__(life_coplevel) < 3): {"You are not at a sergeant rank!"};
+			case (__GETC__(life_coplevel) < 6): {"Du bist noch kein Hauptkommissar"};
 			default
 			{
-				["Sergeant Shop",
+				["Hauptkommissar/SEK Shop",
 					[
+						["hgun_P07_snds_F","Stun Pistol",0],
+						["hgun_Pistol_heavy_01_F",nil,2500],
+						["Binocular",nil,0],
+						["ItemGPS",nil,0],
+						["ToolKit",nil,250],
+                        ["SmokeShellOrange",nil,50],
+                        ["Chemlight_blue",nil,300],
+						["muzzle_snds_L",nil,650],
+						["FirstAidKit",nil,0],
+						["Medikit",nil,100],
+						["NVGoggles",nil,0],
+						["16Rnd_9x21_Mag",nil,50],
+						["11Rnd_45ACP_Mag",nil,50],
 						["SMG_02_ACO_F",nil,15000],
+						["arifle_MX_F",nil,35000],
 						["hgun_ACPC2_F",nil,17500],
 						["arifle_MXC_F",nil,30000],
+						["arifle_MXM_F",nil,40000],
+						["MineDetector",nil,1000],
                         ["MiniGrenade","Flashbang",100],
 						["optic_Arco",nil,2500],
+						["optic_Holosight",nil,1200],
+						["optic_Aco",nil,850],
+						["optic_MRD",nil,250],
+						["optic_DMS",nil,2500],
+						["acc_flashlight",nil,750],
 						["muzzle_snds_H",nil,2750],
 						["30Rnd_65x39_caseless_mag",nil,100],
 						["30Rnd_9x21_Mag",nil,60],
-						["9Rnd_45ACP_Mag",nil,200]
+						["9Rnd_45ACP_Mag",nil,200],
+						["optic_LRPS",nil,5000],
+						["srifle_GM6_F",nil,25000],
+						["5Rnd_127x108_Mag",nil,250],
+						["SMG_01_F",nil,20000],
+						["30Rnd_45ACP_Mag_SMG_01",nil,150]
 					]
 				];
 			};

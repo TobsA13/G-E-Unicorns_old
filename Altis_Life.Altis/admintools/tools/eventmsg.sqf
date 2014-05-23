@@ -1,0 +1,1 @@
+createDialog "life_msg";

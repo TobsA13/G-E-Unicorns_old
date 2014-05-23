@@ -40,7 +40,7 @@ player setObjectTextureGlobal [0,"textures\skins\ADAC.jpg"];
 waitUntil {uniform player != "U_I_CombatUniform"};
 };
 };
-[] execVM "addons\R3F_ARTY_AND_LOG\init.sqf";
+//[] execVM "addons\R3F_ARTY_AND_LOG\init.sqf";
 };
 
 diag_log "::Life Client:: Creating AGB Dialog";

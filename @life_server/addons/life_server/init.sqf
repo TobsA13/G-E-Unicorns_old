@@ -95,4 +95,8 @@ if (isServer) then {
 call compile preProcessFileLineNumbers "\life_server\map\map1_carspawn.sqf";
 };
 
+if (isServer) then {
+call compile preProcessFileLineNumbers "\life_server\map\cop.sqf";
+};
+
 [] execVM "\life_server\initHousing.sqf";
