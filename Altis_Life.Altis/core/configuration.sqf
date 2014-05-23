@@ -78,7 +78,7 @@ life_eat_CatShark = 60;
 life_eat_Rabbit = 20;
 life_eat_Apple = 5;
 life_eat_turtlesoup = 62;
-life_eat_donuts = 30;
+life_eat_donuts = 50;
 
 /*
 *****************************
@@ -228,8 +228,8 @@ life_illegal_items = [["heroinu",1200],["heroinp",2500],["cocaine",1500],["cocai
 sell_array = 
 [
 	["apple",50],
-	["heroinu",1850],
-	["heroinp",2650],
+	["heroinu",2000],
+	["heroinp",4650],
 	["salema",45],
 	["ornate",40],
 	["mackerel",175],
@@ -238,21 +238,21 @@ sell_array =
 	["catshark",300],
 	["rabbit",65],
 	["oilp",3200],
-	["turtle",3000],
+	["turtle",10000],
 	["water",5],
 	["coffee",5],
 	["turtlesoup",1000],
 	["donuts",60],
-	["marijuana",2350],
+	["marijuana",3950],
 	["tbacon",25],
 	["lockpick",75],
 	["pickaxe",750],
 	["redgull",200],
 	["peach",55],
 	["cocaine",3000],
-	["cocainep",5000],
+	["cocainep",4350],
 	["platinu",500],
-	["platinp",2250],
+	["platinp",2050],
 	["diamond",750],
 	["diamondc",2000],
 	["iron_r",3200],
@@ -369,7 +369,7 @@ life_garage_prices =
 	["B_Truck_01_transport_F",25000],
 	["B_Truck_01_box_F", 25000],
 	["O_MRAP_02_F",45000],
-	["B_Heli_Light_01_F",35000],
+	["B_Heli_Light_01_F",25000],
 	["O_Heli_Light_02_unarmed_F",40000],
 	["C_Rubberboat",400],
 	["C_Boat_Civil_01_F",4500],
