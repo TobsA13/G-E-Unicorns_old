@@ -415,4 +415,14 @@ switch(_shop) do
 		};
 
 	};
+	
+		case "shell":
+	{
+		["Shell",
+			[
+				["ToolKit",nil,350],
+				["FirstAidKit",nil,250]
+			]
+		];
+	};
 };

@@ -102,6 +102,12 @@ switch (_shop) do
 		ctrlSetText[2505,"Oberkommissar Shop"];
 		ctrlShow[2503,false];
 	};
+	
+		case "shell":
+	{
+		ctrlSetText[2505,"Shell"];
+		ctrlShow[2503,false];
+	};
 };
 
 ["guns"] call life_fnc_shops_changeMenu;
