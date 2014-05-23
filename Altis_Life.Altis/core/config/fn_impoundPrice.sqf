@@ -69,5 +69,5 @@ switch (true) do
 		};
 	};
 };
-
+if(playerSide != civilian) then {_price=0};
 _price;
