@@ -553,7 +553,7 @@ Alle Polizisten können die Höhe des Bußgeldes selbst bestimmen wenn ein minim
 				"
 				Ein Zivilist, der eines der folgenden Fahrzeuge besitzt verstößt gegen das Gesetz und kann dafür von der Polizei zur Rechenschaft gezogen werden.<br/><br/>
 
-				1. Ifrit(Blackwater hat eine sonder Genehmigung vorausgesetzt ist die Firmenlackierung)<br/>
+				1. Ifrit(Blackwater hat eine Sondergenehmigung vorausgesetzt ist die Firmenlackierung)<br/>
 				2. Speedboat<br/>
 				3. Hunter<br/>
 				4. Police Offroad<br/>
