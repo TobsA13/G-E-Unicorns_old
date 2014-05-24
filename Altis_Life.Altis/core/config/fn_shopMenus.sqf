@@ -109,7 +109,7 @@ switch (_shop) do
 		ctrlShow[2503,false];
 	};
 	
-		case "blackwater":
+	case "blackwater":
 	{
 		ctrlSetText[2505,"Blackwater Shop"];
 		ctrlShow[2503,false];

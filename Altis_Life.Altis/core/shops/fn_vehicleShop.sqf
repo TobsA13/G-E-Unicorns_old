@@ -210,10 +210,10 @@ switch (life_veh_shop) do
 		ctrlSetText[2301,"Donator Car Shop"];
 	};
 	
-		case "blackwater_v_1":
+	case "blackwater_v_1":
 	{
 		if(playerSide != civilian) exitWith {_kill =  "You are not a civilian."};
-		ctrlSetText[2301,"Rebel Car Shop"];
+		ctrlSetText[2301,"Blackwater Autohändler"];
 	};
 };
 

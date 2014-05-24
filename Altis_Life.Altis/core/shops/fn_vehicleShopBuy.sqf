@@ -227,7 +227,7 @@ switch(life_veh_shop) do
 		_sp = getMarkerPos "adac_car_1";
 		_dir = markerDir "adac_car_1";
 	};
-		case "blackwater_v_1":
+	case "blackwater_v_1":
 	{
 		_sp = getMarkerPos "blackwater_v_1";
 		_dir = markerDir "blackwater_v_1";

@@ -404,13 +404,13 @@ switch(_shop) do
 			default
 			{
 				["ADAC - Ausrüstung",
-				[
-				["ItemGPS",nil,100],
-				["ToolKit",nil,0],
-				["NVGoggles",nil,100],
-				["Chemlight_yellow",nil,10],
-                ["SmokeShellYellow",nil,10]
-				]
+					[
+						["ItemGPS",nil,100],
+						["ToolKit",nil,0],
+						["NVGoggles",nil,100],
+						["Chemlight_yellow",nil,10],
+						["SmokeShellYellow",nil,10]
+					]
 				];
 			};
 		};
