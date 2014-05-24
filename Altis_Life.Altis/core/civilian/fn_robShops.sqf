@@ -65,5 +65,5 @@ if(_rip) then
 	[[getPlayerUID _robber,name _robber,"211A"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
 };
 sleep 300;
-_action = _shop addAction["Rob the Gas Station",life_fnc_robShops];
+[[_shop],"life_fnc_addActionRob",true,false] spawn life_fnc_MP;
 _shop switchMove "";

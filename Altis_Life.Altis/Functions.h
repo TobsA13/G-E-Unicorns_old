@@ -89,6 +89,9 @@ class Life_Client_Core
 		class robAction {};
 		class sellTurtle {};
         class putHandsUp {};
+        
+        class delAction {};
+        class addActionRob {};
 	};
 	
 	class Config
