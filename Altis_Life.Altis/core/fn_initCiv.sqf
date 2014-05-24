@@ -60,12 +60,12 @@ for "_i" from 0 to (count _units)-1 do{
     _varname setMarkerPosLocal getPos (_units select _i);
 
 };
-    sleep 5;
+    sleep 3;
 for "_i" from 0 to (count _units)-1 do{
     _varname = name (_units select _i);
     deleteMarkerLocal _varname;
 
-};
+    };
     
-};  
+    };  
 };
