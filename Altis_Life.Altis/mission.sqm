@@ -2044,13 +2044,13 @@ class Mission
 				class Item1
 				{
 					position[]={6192.6582,26.797243,15077.707};
-					azimut=144.88713;
+					azimut=144.88699;
 					special="NONE";
 					id=95;
 					side="CIV";
 					vehicle="C_man_1";
 					skill=0.60000002;
-					init="this enableSimulation false; this allowDamage false; this addAction[""Shell"",life_fnc_weaponShopMenu,""shell""]; this addAction[""Snackbar"",life_fnc_virt_menu,""shell""];";
+					init="this enableSimulation false; this allowDamage false; this addAction[""Shell"",life_fnc_weaponShopMenu,""shell""]; this addAction[""Snackbar"",life_fnc_virt_menu,""shell""];rob_action1 = this addAction[""Tankstelle ausrauben"",life_fnc_robShops];";
 					syncId=0;
 					synchronizations[]={1};
 				};
@@ -3785,14 +3785,14 @@ class Mission
 				class Item0
 				{
 					position[]={9028.7012,111.82321,15731.227};
-					azimut=-11.352043;
+					azimut=-11.352;
 					special="NONE";
 					id=225;
 					side="CIV";
 					vehicle="C_man_1";
 					leader=1;
 					skill=0.60000002;
-					init="this enableSimulation false; this allowDamage false; this addAction[""Shell"",life_fnc_weaponShopMenu,""shell""]; this addAction[""Snackbar"",life_fnc_virt_menu,""shell""];";
+					init="this enableSimulation false; this allowDamage false; this addAction[""Shell"",life_fnc_weaponShopMenu,""shell""]; this addAction[""Snackbar"",life_fnc_virt_menu,""shell""];rob_action2 = this addAction[""Tankstelle ausrauben"",life_fnc_robShops];";
 					syncId=8;
 					synchronizations[]={1};
 				};
@@ -3807,14 +3807,14 @@ class Mission
 				class Item0
 				{
 					position[]={12036.808,27.607965,15829.65};
-					azimut=-0.85380757;
+					azimut=-0.85380799;
 					special="NONE";
 					id=226;
 					side="CIV";
 					vehicle="C_man_1";
 					leader=1;
 					skill=0.60000002;
-					init="this enableSimulation false; this allowDamage false; this addAction[""Shell"",life_fnc_weaponShopMenu,""shell""]; this addAction[""Snackbar"",life_fnc_virt_menu,""shell""];";
+					init="this enableSimulation false; this allowDamage false; this addAction[""Shell"",life_fnc_weaponShopMenu,""shell""]; this addAction[""Snackbar"",life_fnc_virt_menu,""shell""];rob_action3 = this addAction[""Tankstelle ausrauben"",life_fnc_robShops];";
 					syncId=9;
 					synchronizations[]={1};
 				};
@@ -3829,14 +3829,14 @@ class Mission
 				class Item0
 				{
 					position[]={20781.602,37.242001,16677.219};
-					azimut=144.88713;
+					azimut=144.88699;
 					special="NONE";
 					id=227;
 					side="CIV";
 					vehicle="C_man_1";
 					leader=1;
 					skill=0.60000002;
-					init="this enableSimulation false; this allowDamage false; this addAction[""Shell"",life_fnc_weaponShopMenu,""shell""]; this addAction[""Snackbar"",life_fnc_virt_menu,""shell""];";
+					init="this enableSimulation false; this allowDamage false; this addAction[""Shell"",life_fnc_weaponShopMenu,""shell""]; this addAction[""Snackbar"",life_fnc_virt_menu,""shell""];rob_action5 = this addAction[""Tankstelle ausrauben"",life_fnc_robShops];";
 					syncId=10;
 					synchronizations[]={1};
 				};
@@ -3851,14 +3851,14 @@ class Mission
 				class Item0
 				{
 					position[]={23373.764,12.829961,19810.641};
-					azimut=144.88713;
+					azimut=144.88699;
 					special="NONE";
 					id=228;
 					side="CIV";
 					vehicle="C_man_1";
 					leader=1;
 					skill=0.60000002;
-					init="this enableSimulation false; this allowDamage false; this addAction[""Shell"",life_fnc_weaponShopMenu,""shell""]; this addAction[""Snackbar"",life_fnc_virt_menu,""shell""];";
+					init="this enableSimulation false; this allowDamage false; this addAction[""Shell"",life_fnc_weaponShopMenu,""shell""]; this addAction[""Snackbar"",life_fnc_virt_menu,""shell""];rob_action6 = this addAction[""Tankstelle ausrauben"",life_fnc_robShops];";
 					syncId=11;
 					synchronizations[]={1};
 				};
@@ -3895,8 +3895,8 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={3270.1338,6.903842,12444.845};
-					azimut=246.51801;
+					position[]={3254.7974,6.8369288,12446.16};
+					azimut=340.36325;
 					special="NONE";
 					id=230;
 					side="EAST";
@@ -11281,10 +11281,10 @@ class Mission
 		};
 		class Item215
 		{
-			position[]={3267.7722,6.8970299,12441.893};
+			position[]={3244.6931,6.5719881,12454.343};
 			name="blackwater_v_1";
 			type="Empty";
-			angle=-98.4813;
+			angle=-13.057698;
 		};
 	};
 };
