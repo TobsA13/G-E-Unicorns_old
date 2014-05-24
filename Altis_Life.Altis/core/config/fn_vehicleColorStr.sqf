@@ -236,7 +236,15 @@ switch (_vehicle) do
 		{
 			case 0: {_color = "Regular"};
 		};
-	};	
+	};
+
+	case "0_MRAP_02_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Blackwater"};
+		};
+	};
 };
 
 _color;

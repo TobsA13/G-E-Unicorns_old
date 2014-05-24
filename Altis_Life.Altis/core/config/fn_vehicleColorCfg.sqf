@@ -232,6 +232,14 @@ switch (_vehicle) do
 			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","fed"]
 		];
 	};
+	
+	case "O_MRAP_02_F":
+	{
+		_ret = 
+		[
+			["textures\brumbrums\civ\blackwaterifrit.jpg","black"]
+		];
+	};
 };
 
 _ret;
