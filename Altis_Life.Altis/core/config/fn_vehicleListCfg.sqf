@@ -445,6 +445,23 @@ switch (_shop) do
 			["C_Offroad_01_F",0]
 		];
 	};
+	
+	case "blackwater_v_1":
+	{
+		_return =
+		[
+			["B_Quadbike_01_F",2500],
+			["B_G_Offroad_01_F",15000],
+			["O_MRAP_02_F",150000],
+			["B_Heli_Light_01_F",325000]
+		];
+		
+		if(license_civ_blackwater) then
+		{
+			_return set[count _return,
+			["B_G_Offroad_01_armed_F",750000]];
+		};
+	};
 };
 
 _return;
