@@ -22,7 +22,7 @@ if (currentWeapon _robber == "") exitWith { hint "HaHa, you do not threaten me! 
 if (_kassa == 0) exitWith { hint "There is no cash in the register!" };
 _rip = true;
 _kassa = 3000 + round(random 12000);
-_shop removeAction _action;
+[[_shop,_action],"life_fnc_delAction",true,false] spawn life_fnc_MP;
 _shop switchMove "AmovPercMstpSsurWnonDnon";
 _chance = random(100);
 if(_chance >= 85) then { hint "The cashier hit the silent alarm, police has been alerted!"; [[0,format["ALARM! - Gasstation: %1 is being robbed!", _shop]],"life_fnc_broadcast",west,false] spawn life_fnc_MP; };
