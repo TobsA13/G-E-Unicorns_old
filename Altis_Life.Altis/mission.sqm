@@ -3597,7 +3597,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={15111.674,17.719656,17306.607};
+					position[]={3713.8381,8.8196363,13415.684};
 					azimut=132.582;
 					special="NONE";
 					id=216;
@@ -3617,7 +3617,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={15159.146,17.894939,17289.557};
+					position[]={3681.9871,7.5879493,13409.453};
 					azimut=-132.22301;
 					special="NONE";
 					id=217;
@@ -3637,7 +3637,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={15101.856,17.670797,17296.539};
+					position[]={3716.0925,8.6980438,13417.649};
 					azimut=-226.41901;
 					special="NONE";
 					id=218;
@@ -11096,7 +11096,7 @@ class Mission
 		};
 		class Item193
 		{
-			position[]={15114.118,17.786709,17301.264};
+			position[]={3725.1587,9.4421301,13412.537};
 			name="adac";
 			text="ADAC";
 			type="mil_box";
@@ -11104,14 +11104,14 @@ class Mission
 		};
 		class Item194
 		{
-			position[]={15142.243,17.877764,17273.037};
+			position[]={3666.6216,7.4179831,13400.095};
 			name="adac_air_1";
 			type="Empty";
 			angle=-1.8338;
 		};
 		class Item195
 		{
-			position[]={15111.631,17.822554,17289.025};
+			position[]={3728.6257,9.7360992,13409.91};
 			name="adac_car_1";
 			type="Empty";
 			angle=10.9481;
@@ -11126,7 +11126,7 @@ class Mission
 		};
 		class Item197
 		{
-			position[]={15120.472,17.719526,17313.721};
+			position[]={3719.1699,9.2125282,13414.134};
 			name="adac_spawn_1";
 			type="Empty";
 			angle=183.36295;
