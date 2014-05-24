@@ -36,4 +36,5 @@ if(!StartProgress) then
 StartProgress = true;
 
 diag_log "::Life Client:: R3F_ARTY_AND_LOG";
-[] execVM "addons\R3F_ARTY_AND_LOG\init.sqf";
+_logistic = execVM "=BTC=_Logistic\=BTC=_Logistic_Init.sqf";
+execVM "R3F_ARTY_AND_LOG\init.sqf"

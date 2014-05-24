@@ -26,20 +26,30 @@ corpseRemovalMaxTime = 9999;
 #include "dialog\MasterHandler.h"
 #include "dialog\agb.hpp"
 #include "dialog\msg.hpp"
-#include "addons\R3F_ARTY_AND_LOG\desc_rsct_include.h"
 #include "spectator\spectating.hpp"
+ #include "R3F_ARTY_AND_LOG\desc_include.h"
 
 class RscTitles
 {
 	#include "dialog\ui.hpp"
 	#include "dialog\progress.hpp"
+   
 };
 
 class CfgFunctions
 {
 	#include "Functions.h"
 };
-
+class RscPicture 
+{
+	type = CT_STATIC;
+	idc = -1;
+	style = 48;
+	colorBackground[] = {0, 0, 0, 0};
+	colorText[] = {1, 1, 1, 1};
+	font = "PuristaMedium"; //Typeface
+	sizeEx = 0;
+};
 class CfgSounds
 {
   sounds[] = {};
