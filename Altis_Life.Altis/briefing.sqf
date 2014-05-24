@@ -501,7 +501,7 @@ Alle Polizisten können die Höhe des Bußgeldes selbst bestimmen wenn ein minim
 		[
 			"Gebrauch von Waffen",
 				"
-				1. Waffengewalt darf nur zum Schutz des eigen Lebens und des von Polizisten/Zivilist genutzt werden oder wenn nicht tödliche Waffen nicht effektiv wären.<br/>
+				1. Waffengewalt darf nur zum Schutz des eigen Lebens und des von Polizisten/Zivilist/Blackwatermitarbeitern genutzt werden oder wenn nicht tödliche Waffen nicht effektiv wären.<br/>
 				2. Du darfst nur schießen wenn du in Gefahr oder im Training bist.<br/>
 				3. Missachten der Regeln zum Gebrauch von Waffen führt zu einer Entlassung aus der Polizei.<br/><br/>
 				"
@@ -553,7 +553,7 @@ Alle Polizisten können die Höhe des Bußgeldes selbst bestimmen wenn ein minim
 				"
 				Ein Zivilist, der eines der folgenden Fahrzeuge besitzt verstößt gegen das Gesetz und kann dafür von der Polizei zur Rechenschaft gezogen werden.<br/><br/>
 
-				1. Ifrit<br/>
+				1. Ifrit(Blackwater hat eine sonder Genehmigung vorausgesetzt ist die Firmenlackierung)<br/>
 				2. Speedboat<br/>
 				3. Hunter<br/>
 				4. Police Offroad<br/>
@@ -565,7 +565,9 @@ Alle Polizisten können die Höhe des Bußgeldes selbst bestimmen wenn ein minim
 			"Illegale Waffen",
 				"
 				Ein Zivilist mit einer der folgenden Waffen verstößt gegen das Waffen-Gesetz und kann dafür von der Polizei zur Rechenschaft gezogen werden.<br/><br/>
-
+				Blackwater hat eine Sondergenehmigung für Sturmgewehre, DMRs und Pistolen, darf sie jedoch nur zum Schutz von sich und den zu beschützenden Personen einsetzten,<br/>
+				falls dies nicht eingehalten wird dürfen die Waffen der Personen beschlagnahmt werden und die Person zur Rechenschaft gezogen werden, welche die Regel gebrochen hat.
+				
 				1. MX Series<br/>
 				2. Katiba Series<br/>
 				3. TRG Series<br/>
