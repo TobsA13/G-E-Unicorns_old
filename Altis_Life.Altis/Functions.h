@@ -119,6 +119,7 @@ class Life_Client_Core
 		class clothing_dive {};
         class clothing_medic {};
         class clothing_adac {};
+		class clothing_blackwater {};
         
         
         class houseContainers {};
