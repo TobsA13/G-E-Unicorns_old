@@ -50,7 +50,7 @@ else
 				// Attacher à l'arrière du véhicule au ras du sol
 				_objet attachTo [_remorqueur, [
 					0,
-					(boundingBox _remorqueur select 0 select 1) + (boundingBox _objet select 0 select 1) + 4,
+					(boundingBox _remorqueur select 0 select 1) + (boundingBox _objet select 0 select 1) + 1.5,
 					(boundingBox _remorqueur select 0 select 2) - (boundingBox _objet select 0 select 2)
 				]];
 				

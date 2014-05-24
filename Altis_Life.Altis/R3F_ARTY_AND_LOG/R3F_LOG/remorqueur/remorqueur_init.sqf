@@ -21,6 +21,6 @@ if (isNil "_remorque") then
 	_remorqueur setVariable ["R3F_LOG_remorque", objNull, false];
 };
 
-_remorqueur addAction [("<t color=""#dddd00"">" + STR_R3F_LOG_action_remorquer_deplace + "</t>"), "R3F_ARTY_AND_LOG\R3F_LOG\remorqueur\remorquer_deplace.sqf", nil, 6, true, true, "", "R3F_LOG_objet_addAction == _target && R3F_LOG_action_remorquer_deplace_valide"];
+_remorqueur addAction [("<t color=""#dddd00"">" + STR_R3F_LOG_action_remorquer_deplace + "</t>"), "R3F_ARTY_AND_LOG\R3F_LOG\remorqueur\remorquer_deplace.sqf", nil, 6, true, true, "", "R3F_LOG_objet_addAction == _target && R3F_LOG_action_remorquer_deplace_valide && str(player) in [""adac_1"",""adac_2""]"];
 
-_remorqueur addAction [("<t color=""#eeeeee"">" + STR_R3F_LOG_action_remorquer_selection + "</t>"), "R3F_ARTY_AND_LOG\R3F_LOG\remorqueur\remorquer_selection.sqf", nil, 6, true, true, "", "R3F_LOG_objet_addAction == _target && R3F_LOG_action_remorquer_selection_valide"];
+_remorqueur addAction [("<t color=""#eeeeee"">" + STR_R3F_LOG_action_remorquer_selection + "</t>"), "R3F_ARTY_AND_LOG\R3F_LOG\remorqueur\remorquer_selection.sqf", nil, 6, true, true, "", "R3F_LOG_objet_addAction == _target && R3F_LOG_action_remorquer_selection_valide && str(player) in [""adac_1"",""adac_2""]"];
