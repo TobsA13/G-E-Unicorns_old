@@ -2043,7 +2043,7 @@ class Mission
 				};
 				class Item1
 				{
-					position[]={6192.6582,26.797243,15077.707};
+					position[]={6182.2368,26.748201,15092.797};
 					azimut=144.88699;
 					special="NONE";
 					id=95;
@@ -3444,7 +3444,7 @@ class Mission
 				items=6;
 				class Item0
 				{
-					position[]={3269.2505,6.8971419,12452.198};
+					position[]={3242.9893,6.3348694,12478.208};
 					azimut=185.11099;
 					special="NONE";
 					id=207;
@@ -3762,8 +3762,8 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={6794.6763,41.20784,15576.104};
-					azimut=177.31494;
+					position[]={6800.6782,41.217461,15585.772};
+					azimut=266.37878;
 					special="NONE";
 					id=224;
 					side="CIV";
@@ -3784,7 +3784,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={9028.7012,111.82321,15731.227};
+					position[]={9035.7256,111.68941,15712.964};
 					azimut=-11.352;
 					special="NONE";
 					id=225;
@@ -3806,7 +3806,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={12036.808,27.607965,15829.65};
+					position[]={12038.933,27.612627,15809.446};
 					azimut=-0.85380799;
 					special="NONE";
 					id=226;
@@ -3828,7 +3828,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={20781.602,37.242001,16677.219};
+					position[]={20762.301,36.890945,16665.979};
 					azimut=144.88699;
 					special="NONE";
 					id=227;
@@ -3850,7 +3850,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={23373.764,12.829961,19810.641};
+					position[]={23355.922,12.92877,19810.557};
 					azimut=144.88699;
 					special="NONE";
 					id=228;
@@ -3913,7 +3913,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=582;
+		items=584;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -9561,10 +9561,29 @@ class Mission
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 		};
+		class Item582
+		{
+			position[]={3223.9143,5.076828,12477.72};
+			azimut=165.63831;
+			id=813;
+			side="EMPTY";
+			vehicle="Land_BarGate_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item583
+		{
+			position[]={3241.1445,5.9963536,12463.502};
+			azimut=-13.4811;
+			id=814;
+			side="EMPTY";
+			vehicle="Land_HelipadSquare_F";
+			skill=0.60000002;
+		};
 	};
 	class Markers
 	{
-		items=216;
+		items=222;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -11285,6 +11304,54 @@ class Mission
 			name="blackwater_v_1";
 			type="Empty";
 			angle=-13.057698;
+		};
+		class Item216
+		{
+			position[]={6193.2451,26.932043,15082.521};
+			name="gasstation_1";
+			text="Tankstelle A";
+			type="n_maint";
+			colorName="ColorBlue";
+		};
+		class Item217
+		{
+			position[]={6798.8794,41.253525,15585.835};
+			name="gasstation_1_1";
+			text="Tankstelle B";
+			type="n_maint";
+			colorName="ColorBlue";
+		};
+		class Item218
+		{
+			position[]={9032.8701,111.68148,15717.488};
+			name="gasstation_1_2";
+			text="Tankstelle C";
+			type="n_maint";
+			colorName="ColorBlue";
+		};
+		class Item219
+		{
+			position[]={12037.071,27.619429,15809.571};
+			name="gasstation_1_3";
+			text="Tankstelle D";
+			type="n_maint";
+			colorName="ColorBlue";
+		};
+		class Item220
+		{
+			position[]={20773.473,36.920841,16668.414};
+			name="gasstation_1_4";
+			text="Tankstelle F";
+			type="n_maint";
+			colorName="ColorBlue";
+		};
+		class Item221
+		{
+			position[]={23363.496,12.909355,19808.668};
+			name="gasstation_1_5";
+			text="Tankstelle G";
+			type="n_maint";
+			colorName="ColorBlue";
 		};
 	};
 };
