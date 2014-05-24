@@ -465,7 +465,6 @@ switch(_shop) do
 						["hgun_ACPC2_F",nil,20000],
 						["hgun_PDW2000_F",nil,40000],
 						["optic_ACO_grn_smg",nil,5000],
-						["V_Rangemaster_belt",nil,13000],
 						["16Rnd_9x21_Mag",nil,100],
 						["9Rnd_45ACP_Mag",nil,100],
 						["6Rnd_45ACP_Cylinder",nil,100],
