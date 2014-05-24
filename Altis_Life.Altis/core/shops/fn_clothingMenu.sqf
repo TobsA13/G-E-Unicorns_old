@@ -15,6 +15,7 @@ if((_this select 3) in ["bruce","dive","reb"] && playerSide != civilian) exitWit
 if((_this select 3) == "reb" && !license_civ_rebel) exitWith {hint "Du hast kein Rebellentraining!"; closeDialog 0;};
 if((_this select 3) in ["cop"] && playerSide != west) exitWith {hint "Du must Polizist sein um den Shop benutzen zu dürfen!"; closeDialog 0;};
 if((_this select 3) == "medic" && !(str(player) in ["medic_1","medic_2","medic_3","medic_4"])) exitWith {hint "Du bist leider kein Arzt!"; closeDialog 0;};
+if((_this select 3) == "blackwater" && !license_civ_rebel) exitWith {hint "Du gehörst nicht zu Blackwater Limited & Co.KG!"; closeDialog 0;};
 
 life_clothing_store = _this select 3;
 
@@ -180,4 +181,10 @@ if(playerSide == independent) then
 {    
     if(uniform player == "U_I_CombatUniform")then{
     player setObjectTextureGlobal [0,"textures\skins\saniuniform.jpg"];};
+};
+
+if(playerSide == civilian) then
+{    
+    if(uniform player == "U_B_SpecopsUniform_sgg")then{
+    player setObjectTextureGlobal [0,"textures\skins\blackwater.jpg"];};
 };
