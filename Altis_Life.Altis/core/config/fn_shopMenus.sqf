@@ -103,7 +103,7 @@ switch (_shop) do
 		ctrlShow[2503,false];
 	};
 	
-		case "shell":
+	case "shell":
 	{
 		ctrlSetText[2505,"Shell"];
 		ctrlShow[2503,false];
