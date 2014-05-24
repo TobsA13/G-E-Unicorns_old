@@ -70,7 +70,16 @@ for "_i" from 0 to (count _c_arr)-1 do
 				lbAdd[2303,format["%1",_text]];
 				lbSetValue [2303,(lbSize 2303)-1,_i];
 			};
-		};        
+		}; 
+		case "blackwater_v_1":
+		{
+			if((_c_arr select _i) select 1 == "black") then
+			{
+				_text = [_veh,_i] call life_fnc_vehicleColorStr;
+				lbAdd[2303,format["%1",_text]];
+				lbSetValue [2303,(lbSize 2303)-1,_i];
+			};
+		};            
 		default
 		{
 			_id = switch(playerSide) do {case civilian: {"civ"}; case west:{"cop"}; default {"civ"};};
