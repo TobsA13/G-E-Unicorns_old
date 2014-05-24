@@ -43,6 +43,7 @@ switch (_mode) do
 			case "meth": {_var = "license_civ_meth"};
 			case "meth1": {_var = "license_civ_meth"};
 			case "meth2": {_var = "license_civ_meth"};
+			case "blackwater": {_var = "license_civ_blackwater"}; 
 			default {_var = ""};
 		};
 	};
@@ -78,6 +79,7 @@ switch (_mode) do
 			case "license_civ_meth": {_var = "meth"};
 			case "license_civ_meth": {_var = "meth1"};
 			case "license_civ_meth": {_var = "meth2"};
+			case "license_civ_blackwater": {_var = "blackwater"};
 			default {_var = ""};
 		};
 	};

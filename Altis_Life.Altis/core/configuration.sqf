@@ -211,7 +211,8 @@ life_licenses =
 	["license_civ_platin","civ"],
 	["license_med_air","med"],
     ["license_civ_home", "civ"],
-	["license_civ_meth","civ"]
+	["license_civ_meth","civ"],
+	["license_civ_blackwater","civ"]
 ];
 
 //Setup License Variables

@@ -261,6 +261,7 @@ switch(_shop) do
 						["optic_Holosight",nil,3600],
 						["acc_flashlight",nil,1000],
 						["optic_Hamr",nil,7500],
+						["optic_DMS",nil,15000],
 						["30Rnd_9x21_Mag",nil,200],
 						["20Rnd_556x45_UW_mag",nil,125],
 						["30Rnd_556x45_Stanag",nil,300],
@@ -416,7 +417,7 @@ switch(_shop) do
 
 	};
 	
-		case "shell":
+	case "shell":
 	{
 		["Shell",
 			[
@@ -425,4 +426,53 @@ switch(_shop) do
 			]
 		];
 	};
+	
+	case "blackwater":
+	{	
+		switch(true) do
+		{
+			case (playerSide != civilian): {"Du gehörst nicht zu Blackwater Limited & Co.KG!"};
+			case (!license_civ_blackwater): {"Du gehörst nicht zu Blackwater Limited & Co.KG!"};
+			default
+			{
+				["Blackwater Shop",
+					[
+						["Binocular",nil,150],
+						["ItemGPS",nil,100],
+						["ToolKit",nil,250],
+						["FirstAidKit",nil,150],
+						["NVGoggles",nil,2000],
+						["Chemlight_green",nil,300],
+						["arifle_TRG20_F",nil,25000],
+						["arifle_Katiba_F",nil,30000],
+						["srifle_DMR_01_F",nil,50000],
+						["arifle_SDAR_F",nil,20000],
+						["arifle_MXM_F",nil,45000],
+						["optic_ACO_grn",nil,3500],
+						["optic_Holosight",nil,3600],
+						["acc_flashlight",nil,1000],
+						["optic_Hamr",nil,7500],
+						["optic_DMS",nil,10000],
+						["optic_LRPS",nil,15000],
+						["30Rnd_65x39_caseless_mag",nil,250],
+						["30Rnd_9x21_Mag",nil,200],
+						["20Rnd_556x45_UW_mag",nil,125],
+						["30Rnd_556x45_Stanag",nil,300],
+						["10Rnd_762x51_Mag",nil,500],
+						["30Rnd_65x39_caseless_green",nil,275],
+						["hgun_Rook40_F",nil,10000],
+						["hgun_Pistol_heavy_02_F",nil,15000],
+						["hgun_ACPC2_F",nil,20000],
+						["hgun_PDW2000_F",nil,40000],
+						["optic_ACO_grn_smg",nil,5000],
+						["V_Rangemaster_belt",nil,13000],
+						["16Rnd_9x21_Mag",nil,100],
+						["9Rnd_45ACP_Mag",nil,100],
+						["6Rnd_45ACP_Cylinder",nil,100],
+						["30Rnd_9x21_Mag",nil,250]
+					]
+				];
+			};
+		};
+	};	
 };

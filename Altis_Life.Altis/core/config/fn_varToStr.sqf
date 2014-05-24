@@ -87,6 +87,7 @@ switch (_var) do
 	case "license_civ_marijuana": {"Marijuana Rezept"};
 	case "license_civ_cement": {"Zimentmischer Lizenz"};
 	case "license_civ_meth1": {"Cloud9 Rezept."};
+	case "license_civ_blackwater": {"Blackwater Limited & Co.KG"};
     
         //Virtual Inventory Items
     case "life_inv_storage1": {"Abstellkammer"};
