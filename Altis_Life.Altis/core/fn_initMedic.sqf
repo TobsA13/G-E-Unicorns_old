@@ -14,7 +14,7 @@ if(!((__GETC__(life_medicLevel)) == 1 ||(__GETC__(life_medicLevel)) == 3)) exitW
 	["Notwhitelisted",FALSE,TRUE] call BIS_fnc_endMission;
 	sleep 35;
     };
-    
+
 [] spawn
 {
 while {true} do
@@ -27,6 +27,7 @@ waitUntil {uniform player != "U_I_CombatUniform"};
 };
 
 if(str(player) in ["adac_1","adac_2"]) then {
+
 if(!((__GETC__(life_medicLevel)) == 2 ||(__GETC__(life_medicLevel)) == 3)) exitWith {
 	["Notwhitelisted",FALSE,TRUE] call BIS_fnc_endMission;
 	sleep 35;
@@ -40,8 +41,10 @@ player setObjectTextureGlobal [0,"textures\skins\ADAC.jpg"];
 waitUntil {uniform player != "U_I_CombatUniform"};
 };
 };
-//[] execVM "addons\R3F_ARTY_AND_LOG\init.sqf";
 };
+
+diag_log "::Life Client:: R3F_ARTY_AND_LOG";
+[] execVM "addons\R3F_ARTY_AND_LOG\init.sqf";
 
 diag_log "::Life Client:: Creating AGB Dialog";
 // AGB
