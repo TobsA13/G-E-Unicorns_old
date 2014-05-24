@@ -36,10 +36,6 @@ switch (_filter) do
 		{
 			_ret set[count _ret,["U_B_CombatUniform_mcam_vest",nil,0]];
 		};
-		if(__GETC__(life_coplevel) > 7) then
-		{
-			_ret set[count _ret,["U_B_SpecopsUniform_sgg",nil,0]];
-		};
 	};
 	
 	//Hats

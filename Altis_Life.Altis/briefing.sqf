@@ -64,6 +64,7 @@ player createDiarySubject ["controls","Controls"];
 					Waffenladen<br/>
 					Polizei-HQ<br/>
 					Rebel Outposts<br/>
+					Kavala<br/>
 					Donator Shops<br/><br/>
 				"
 		]

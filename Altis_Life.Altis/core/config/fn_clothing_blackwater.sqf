@@ -1,5 +1,5 @@
 /*
-	File: fn_clothing_reb.sqf
+	File: fn_clothing_blackwater.sqf
 	Author: Bryan "Tonic" Boardwine
 	
 	Description:
@@ -19,11 +19,6 @@ switch (_filter) do
 	{
 		[
 			["U_B_SpecopsUniform_sgg",nil,5000],
-			["U_I_G_Story_Protagonist_F",nil,7500],
-			["U_I_G_resistanceLeader_F",nil,11500],
-			["U_O_SpecopsUniform_ocamo",nil,17500],
-			["U_O_PilotCoveralls",nil,15610],
-			["U_IG_leader","Guerilla Leader",15340],
 			["U_O_GhillieSuit",nil,50000]
 		];
 	};
