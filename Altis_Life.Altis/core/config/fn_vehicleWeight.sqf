@@ -25,7 +25,7 @@ switch ((typeOf _vehicle)) do
 	case "C_Van_01_transport_F": {_weight = 150;};
 	case "I_G_Van_01_transport_F": {_weight = 150;};
 	case "C_Van_01_box_F": {_weight = 150;};
-	case "C_Boat_Civil_01_F": {_weight = 85;};
+	case "C_Boat_Civil_01_F": {_weight = 300;};
 	case "C_Boat_Civil_01_police_F": {_weight = 85;};
 	case "C_Boat_Civil_01_rescue_F": {_weight = 85;};
 	case "B_Truck_01_box_F": {_weight = 700;};
