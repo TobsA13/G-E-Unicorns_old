@@ -73,7 +73,7 @@ for "_i" from 0 to (count _c_arr)-1 do
 		}; 
 		case "blackwater_v_1":
 		{
-			if((_c_arr select _i) select 1 == "black") then
+			if((_c_arr select _i) select 1 == "blackwater") then
 			{
 				_text = [_veh,_i] call life_fnc_vehicleColorStr;
 				lbAdd[2303,format["%1",_text]];

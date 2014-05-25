@@ -128,7 +128,9 @@ switch (_vehicle) do
 			case 11: {_color = "Vrana"};
 			case 12: {_color = "Waves Blue"};
 			case 13: {_color = "Rebel Digital"};
-            case 14: {_color = "Hello Kitty"};
+            case 14: {_color = "Digital"};
+            case 15: {_color = "Schwarz"};
+            case 16: {_color = "Hello Kitty"};
 		};
 	};
 	

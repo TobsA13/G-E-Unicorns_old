@@ -143,6 +143,7 @@ switch (_vehicle) do
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_wave_co.paa","civ"],
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa","reb"],
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa","blackwater"],
+            ["#(argb,8,8,3)color(0.05,0.05,0.05,1)","blackwater"],
 			["textures\brumbrums\civ\hellokitty_heli.jpg","civ"]
 		];
 	};
@@ -238,7 +239,7 @@ switch (_vehicle) do
 	{
 		_ret = 
 		[
-			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","fed"],
+			["\A3\soft_F\MRAP_02\data\MRAP_02_ext_01_CO.paa","reb","\A3\soft_F\MRAP_02\data\MRAP_02_ext_02_CO.paa"],
 			["textures\brumbrums\civ\blackwaterifrit.jpg","blackwater","textures\brumbrums\civ\blackwaterifrit2.jpg"]
 		];
 	};
