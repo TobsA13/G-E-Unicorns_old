@@ -311,10 +311,12 @@ switch(_shop) do
 						["hgun_Rook40_F",nil,750],
 						["hgun_PDW2000_F",nil,6500],
 						["optic_ACO_grn_smg",nil,750],
+						["arifle_MK20C_plain_F",nil,25000],
 						["ToolKit",nil,50],
 						["itemgps",nil,50],
 						["16Rnd_9x21_Mag",nil,25],
-						["30Rnd_9x21_Mag",nil,75]
+						["30Rnd_9x21_Mag",nil,75],
+						["30Rnd_556x45_Stanag",nil,125]
 					]
 				];
 			};
