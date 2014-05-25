@@ -468,7 +468,11 @@ switch(_shop) do
 						["16Rnd_9x21_Mag",nil,100],
 						["9Rnd_45ACP_Mag",nil,100],
 						["6Rnd_45ACP_Cylinder",nil,100],
-						["30Rnd_9x21_Mag",nil,250]
+						["30Rnd_9x21_Mag",nil,250],
+						["muzzle_snds_H",nil,300],
+						["muzzle_snds_M",nil,300],
+						["muzzle_snds_B",nil,300],
+						["muzzle_snds_acp",nil,300]
 					]
 				];
 			};

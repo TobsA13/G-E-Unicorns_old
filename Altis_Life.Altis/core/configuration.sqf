@@ -349,7 +349,11 @@ life_weapon_shop_array =
 	["11Rnd_45ACP_Mag",50],
 	["optic_MRD",250],
 	["optic_DMS",2500],
-	["arifle_MXM_F",40000]
+	["arifle_MXM_F",40000],
+	["muzzle_snds_H",300],
+	["muzzle_snds_M",300],
+	["muzzle_snds_B",300],
+	["muzzle_snds_acp",300],
 ];
 __CONST__(life_weapon_shop_array,life_weapon_shop_array);
 
@@ -381,6 +385,7 @@ life_garage_prices =
 	["B_MRAP_01_F",7500],
 	["O_Truck_03_transport_F",30000],
 	["I_MRAP_03_F",7500]
+	
 ];
 __CONST__(life_garage_prices,life_garage_prices);
 
