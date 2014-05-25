@@ -238,7 +238,8 @@ switch (_vehicle) do
 	{
 		_ret = 
 		[
-			["textures\brumbrums\civ\blackwaterifrit.jpg","black","textures\brumbrums\civ\blackwaterifrit2.jpg"]
+			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","fed"],
+			["textures\brumbrums\civ\blackwaterifrit.jpg","blackwater","textures\brumbrums\civ\blackwaterifrit2.jpg"]
 		];
 	};
 };
