@@ -237,7 +237,7 @@ switch (_vehicle) do
 	{
 		_ret = 
 		[
-			["textures\brumbrums\civ\blackwaterifrit.jpg","black"]
+			["textures\brumbrums\civ\blackwaterifrit.jpg","black","textures\brumbrums\civ\blackwaterifrit2.jpg"]
 		];
 	};
 };

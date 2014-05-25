@@ -27,7 +27,7 @@
  */
 R3F_LOG_CFG_remorqueurs =
 [
-	"C_Offroad_01_F","C_SUV_01_F"
+	"C_Hatchback_01_F","C_Offroad_01_F","C_SUV_01_F","C_Van_01_transport_F","C_Van_01_Fuel_F","B_Truck_01_box_F","C_Hatchback_01_sport_F","O_MRAP_02_F","C_Van_01_box_F","I_Truck_02_transport_F","I_Truck_02_covered_F","B_Truck_01_transport_F","O_Truck_03_transport_F","B_Truck_01_ammo_F","B_G_Offroad_01_F","B_G_Offroad_01_armed_F"
 ];
 
 /**
@@ -36,7 +36,7 @@ R3F_LOG_CFG_remorqueurs =
  */
 R3F_LOG_CFG_objets_remorquables =
 [
-	"C_Offroad_01_F","C_SUV_01_F"
+		"C_Hatchback_01_F","C_Offroad_01_F","C_SUV_01_F","C_Van_01_transport_F","C_Van_01_Fuel_F","B_Truck_01_box_F","C_Hatchback_01_sport_F","O_MRAP_02_F","C_Van_01_box_F","I_Truck_02_transport_F","I_Truck_02_covered_F","B_Truck_01_transport_F","O_Truck_03_transport_F","B_Truck_01_ammo_F","B_G_Offroad_01_F","B_G_Offroad_01_armed_F"
 ];
 
 

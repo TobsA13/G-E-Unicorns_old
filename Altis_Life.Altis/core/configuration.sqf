@@ -242,7 +242,7 @@ sell_array =
 	["turtle",10000],
 	["water",5],
 	["coffee",5],
-	["turtlesoup",1000],
+	["turtlesoup",10000],
 	["donuts",60],
 	["marijuana",3950],
 	["tbacon",25],
