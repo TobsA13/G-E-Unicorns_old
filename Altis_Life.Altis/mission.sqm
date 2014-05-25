@@ -3393,7 +3393,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="reb_1_3";
-					init="removeallWeapons this;  this enableSimulation false;  this allowDamage false; this addAction[""Rebellen Autohändler"",life_fnc_vehicleShop,""reb_v_1"",0,false,false,"""",'playerSide == civilian && license_civ_rebel'];";
+					init="removeallWeapons this;  this enableSimulation false;  this allowDamage false; this addAction[""Rebellen Autohändler"",life_fnc_vehicleShop,""reb_v_1"",0,false,false,"""",'playerSide == civilian && license_civ_rebel']; this addAction[""Fahrzeuggarage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] spawn life_fnc_MP;  life_garage_type = ""Car""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Lade Fahrzeuge....""];   life_garage_sp = ""reb_v_1"";  }]; this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 					syncId=3;
 					synchronizations[]={1};
 				};
@@ -3416,7 +3416,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="reb_1_3_1";
-					init="removeallWeapons this;  this enableSimulation false;  this allowDamage false; this addAction[""Rebellen Autohändler"",life_fnc_vehicleShop,""reb_v_2"",0,false,false,"""",'playerSide == civilian && license_civ_rebel'];";
+					init="removeallWeapons this;  this enableSimulation false;  this allowDamage false; this addAction[""Rebellen Autohändler"",life_fnc_vehicleShop,""reb_v_2"",0,false,false,"""",'playerSide == civilian && license_civ_rebel']; this addAction[""Fahrzeuggarage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] spawn life_fnc_MP;  life_garage_type = ""Car""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Lade Fahrzeuge....""];   life_garage_sp = ""reb_v_2"";  }]; this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 				};
 			};
 		};

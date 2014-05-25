@@ -34,9 +34,9 @@ if(side player == civilian) then
 			["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 		];
       if(license_civ_rebel) then {
-                    _markers set ["civ_spawn_6","RebelHQ 1","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
-                    _markers set ["civ_spawn_7","RebelHQ 2","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];
-                    _markers set ["civ_spawn_8","RebelHQ 3","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"];       
+                    _markers set [count _markers, ["civ_spawn_6","Rebellen HQ 1","textures\server\head.paa"]];
+                    _markers set [count _markers, ["civ_spawn_7","Rebellen 2","textures\server\head.paa"]];
+                    _markers set [count _markers, ["civ_spawn_8","Rebellen 3","textures\server\head.paa"]];       
      };
         if(license_civ_home) then {		
 		
@@ -78,7 +78,7 @@ if(side player == civilian) then
 	
 if(str(player) in ["medic_1","medic_2","medic_3","medic_4"]) then {
 	_markers = 	[
-			["medic_spawn_1","Kavala Hospital","\a3\ui_f\data\map\MapControl\hospital_ca.paa"]
+			["medic_spawn_1","Kavala Krankenhaus","\a3\ui_f\data\map\MapControl\hospital_ca.paa"]
 		];
 };
 
