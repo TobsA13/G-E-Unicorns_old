@@ -1,6 +1,6 @@
 #define __CONST__(var1,var2) var1 = compileFinal (if(typeName var2 == "STRING") then {var2} else {str(var2)})
 DB_Async_Active = false;
-__CONST__(LIFE_SCHEMA_NAME,"'ni235128_1_DB'");//CHANGE THIS IF YOUR DATABASE IS NOT CALLED ARMA3LIFE KEEP THE ' '
+__CONST__(LIFE_SCHEMA_NAME,"'ni235128_2_DB'");//CHANGE THIS IF YOUR DATABASE IS NOT CALLED ARMA3LIFE KEEP THE ' '
 publicVariable "LIFE_SCHEMA_NAME";
 
 [] execVM "\life_server\fn_initHC.sqf";
