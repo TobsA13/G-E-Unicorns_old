@@ -3450,7 +3450,7 @@ class Mission
 				items=6;
 				class Item0
 				{
-					position[]={3242.9893,6.3348694,12478.208};
+					position[]={8427.2529,103.53169,25163.479};
 					azimut=185.11099;
 					special="NONE";
 					id=207;
@@ -3460,6 +3460,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="medic_1";
+					init="removeBackpack this; removeAllWeapons this;";
 					description="Notarzt";
 				};
 				class Item1
@@ -9864,7 +9865,7 @@ class Mission
 		class Item19
 		{
 			position[]={9191.0293,14.377453,21676.027};
-			name="Rebelop";
+			name="civ_spawn_7";
 			text="Rebelenviertel";
 			type="mil_triangle";
 			colorName="Color1_FD_F";
@@ -10730,7 +10731,7 @@ class Mission
 		class Item127
 		{
 			position[]={12820.15,86.739326,16698.045};
-			name="Rebelop_1";
+			name="civ_spawn_5";
 			text="Rebelenversteck";
 			type="mil_triangle";
 			colorName="Color1_FD_F";
@@ -10738,7 +10739,7 @@ class Mission
 		class Item128
 		{
 			position[]={21935.623,18.670317,20987.055};
-			name="Rebelop_2";
+			name="civ_spawn_6";
 			text="Rebelenlager";
 			type="mil_triangle";
 			colorName="Color1_FD_F";
