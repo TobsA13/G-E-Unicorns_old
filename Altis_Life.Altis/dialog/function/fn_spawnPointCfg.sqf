@@ -35,8 +35,8 @@ if(side player == civilian) then
 		];
       if(license_civ_rebel) then {
                     _markers set [count _markers, ["civ_spawn_6","Rebellen HQ 1","textures\server\head.paa"]];
-                    _markers set [count _markers, ["civ_spawn_7","Rebellen 2","textures\server\head.paa"]];
-                    _markers set [count _markers, ["civ_spawn_8","Rebellen 3","textures\server\head.paa"]];       
+                    _markers set [count _markers, ["civ_spawn_7","Rebellen HQ 2","textures\server\head.paa"]];
+                    _markers set [count _markers, ["civ_spawn_8","Rebellen HQ 3","textures\server\head.paa"]];       
      };
         if(license_civ_home) then {		
 		
