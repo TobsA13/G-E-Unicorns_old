@@ -353,7 +353,7 @@ life_weapon_shop_array =
 	["muzzle_snds_H",300],
 	["muzzle_snds_M",300],
 	["muzzle_snds_B",300],
-	["muzzle_snds_acp",300],
+	["muzzle_snds_acp",300]
 ];
 __CONST__(life_weapon_shop_array,life_weapon_shop_array);
 

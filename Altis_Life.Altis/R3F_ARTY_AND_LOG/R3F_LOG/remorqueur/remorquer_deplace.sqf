@@ -49,6 +49,7 @@ else
 			R3F_LOG_joueur_deplace_objet = objNull;
 			player playMove "AinvPknlMstpSlayWrflDnon_medic";
 			sleep 2;
+            player switchmove ",";
 			
 			// Attacher à l'arrière du véhicule au ras du sol
 			_objet attachTo [_remorqueur, [

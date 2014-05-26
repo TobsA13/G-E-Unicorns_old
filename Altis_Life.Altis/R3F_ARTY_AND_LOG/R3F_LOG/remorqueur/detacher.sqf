@@ -36,6 +36,7 @@ else
 		
 		player playMove "AinvPknlMstpSlayWrflDnon_medic";
 		sleep 7;
+        player switchmove ",";
 		
 		if ({_objet isKindOf _x} count R3F_LOG_CFG_objets_deplacables > 0) then
 		{

@@ -11280,9 +11280,8 @@ class Mission
 		{
 			position[]={26559.035,23.341457,21499.963};
 			name="adac_1";
-			text="ADAC";
-			type="mil_box";
-			colorName="ColorYellow";
+			type="Empty";
+            angle=-1.8338;
 		};
 		class Item197
 		{

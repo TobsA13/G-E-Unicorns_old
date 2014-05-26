@@ -212,8 +212,28 @@ switch (life_veh_shop) do
 	
 	case "blackwater_v_1":
 	{
-		if(playerSide != civilian) exitWith {_kill =  "You are not a civilian."};
+		if(!license_civ_blackwater) exitWith {_kill =  "Du gehörst nicht zu Blackwater!"};
 		ctrlSetText[2301,"Blackwater Autohändler"];
+	};
+    case "adac_car_1":
+	{
+		if(!(str(player) in ["adac_1","adac_2"])) exitWith {_kill =  "Du gehörst nicht zum ADAC!"};
+		ctrlSetText[2301,"ADAC Autohändler"];
+	};
+    case "adac_air_1":
+	{
+		if(!(str(player) in ["adac_1","adac_2"])) exitWith {_kill =  "Du gehörst nicht zum ADAC!"};
+		ctrlSetText[2301,"ADAC Helihändler"];
+	};
+    case "med_car_1":
+	{
+		if(!(str(player) in ["medic_1","medic_2","medic_3","medic_4"])) exitWith {_kill =  "Du bist kein Notarzt!"};
+		ctrlSetText[2301,"Notarzt Autohändler"];
+	};
+    case "med_air_1":
+	{
+		if(!(str(player) in ["medic_1","medic_2","medic_3","medic_4"])) exitWith {_kill =  "Du bist kein Notarzt!"};
+		ctrlSetText[2301,"Notarzt Helihändler"];
 	};
 };
 
