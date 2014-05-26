@@ -80,6 +80,7 @@ switch (_shop) do
 		{
 			_return set[count _return,["C_Hatchback_01_sport_F",10000]];
 			_return set[count _return,["I_Heli_Transport_02_F",1200000]];
+			_return set[count _return,["O_Truck_03_covered_F",500000]];
 		};
 	};
 	
@@ -103,6 +104,7 @@ switch (_shop) do
 		{
 			_return set[count _return,["C_Hatchback_01_sport_F",10000]];
 			_return set[count _return,["I_Heli_Transport_02_F",1200000]];
+			_return set[count _return,["O_Truck_03_covered_F",500000]];
 		};
 	};
 			
@@ -123,7 +125,8 @@ switch (_shop) do
 			["I_Truck_02_covered_F",100000],
 			["B_Truck_01_transport_F",200000],
 			["O_Truck_03_transport_F",600000],
-			["B_Truck_01_ammo_F",800000]
+			["B_Truck_01_ammo_F",800000],
+			["O_Truck_03_ammo_F",700000]
 		];	
 	};
 	
@@ -136,7 +139,8 @@ switch (_shop) do
 			["I_Truck_02_covered_F",100000],
 			["B_Truck_01_transport_F",200000],
 			["O_Truck_03_transport_F",600000],
-			["B_Truck_01_ammo_F",800000]
+			["B_Truck_01_ammo_F",800000],
+			["O_Truck_03_ammo_F",700000]
 		];	
 	};
 	
@@ -295,6 +299,8 @@ switch (_shop) do
 		["B_Truck_01_ammo_F",0]];
 		_return set[count _return,
 		["B_Truck_01_transport_F",0]];
+		_return set[count _return,
+		["O_Truck_03_ammo_F",0]];
 	};
 	
 	case "fed_air":

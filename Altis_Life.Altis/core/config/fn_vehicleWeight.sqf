@@ -28,7 +28,7 @@ switch ((typeOf _vehicle)) do
 	case "C_Boat_Civil_01_F": {_weight = 300;};
 	case "C_Boat_Civil_01_police_F": {_weight = 85;};
 	case "C_Boat_Civil_01_rescue_F": {_weight = 85;};
-	case "B_Truck_01_box_F": {_weight = 700;};
+	case "B_Truck_01_box_F": {_weight = 800;};
 	case "B_Truck_01_transport_F": {_weight = 400;};
 	case "B_MRAP_01_F": {_weight = 65;};
 	case "O_MRAP_02_F": {_weight = 60;};
@@ -43,7 +43,9 @@ switch ((typeOf _vehicle)) do
 	case "B_G_Boat_Transport_01_F": {_weight = 45;};
 	case "B_Boat_Transport_01_F": {_weight = 45;};
 	case "O_Truck_03_transport_F": {_weight = 500;};
-	case "B_Truck_01_ammo_F": {_weight = 600;};
+	case "B_Truck_01_ammo_F": {_weight = 700;};
+	case "O_Truck_03_ammo_F": {_weight = 600;};
+	case "O_Truck_03_covered_F": {_weight = 900;};
     case "Land_Box_AmmoOld_F": {_weight = 700;};
     case "B_supplyCrate_F": {_weight = 1000;};
 };

@@ -243,6 +243,22 @@ switch (_vehicle) do
 			["textures\brumbrums\civ\blackwaterifrit.jpg","blackwater","textures\brumbrums\civ\blackwaterifrit2.jpg"]
 		];
 	};
+	
+	case "O_Truck_03_covered_F":
+	{
+		_ret = 
+		[
+			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","fed"]
+		];
+	}
+	
+	case "O_Truck_03_ammo_F":
+	{
+		_ret = 
+		[
+			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","fed"]
+		];
+	}
 };
 
 _ret;

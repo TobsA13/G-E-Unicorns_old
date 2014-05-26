@@ -248,6 +248,22 @@ switch (_vehicle) do
 			case 1: {_color = "Blackwater"};
 		};
 	};
+	
+	case "O_Truck_03_covered_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Regular"};
+		};
+	};
+	
+	case "O_Truck_03_covered_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Regular"};
+		};
+	};
 };
 
 _color;
