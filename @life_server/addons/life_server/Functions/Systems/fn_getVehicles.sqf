@@ -20,10 +20,9 @@ if(_pid == "" OR _side == sideUnknown OR _type == "" OR isNull _unit) exitWith
 	};
 };
 
-
-
-_ret = [_type,_unit] call DB_fnc_queryVehicles;
 _unit = owner _unit;
+
+_ret = [_pid,_side,_type] call DB_fnc_queryVehicles;
 if(isNil "_ret") then {_ret = [];};
 systemChat "Returning info..";
 [[_ret],"life_fnc_impoundMenu",_unit,false] spawn life_fnc_MP;

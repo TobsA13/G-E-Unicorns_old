@@ -29,7 +29,7 @@ else
 	[_this select 0] call life_fnc_getSpawnMarker;
 };
 life_garage_type = "Car";
-[[getPlayerUID player,playerSide,life_garage_type,player],"STS_fnc_getVehicles",false,false] spawn life_fnc_MP;
+[[getPlayerUID player,playerSide,life_garage_type,player],"TON_fnc_getVehicles",false,false] spawn life_fnc_MP;
 createDialog "Life_impound_menu";
 disableSerialization;
-ctrlSetText[2802,"Fetching Vehicles...."];
+ctrlSetText[2802,"Lade Fahrzeuge...."];

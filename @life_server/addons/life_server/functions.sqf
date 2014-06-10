@@ -224,12 +224,40 @@ compileFinal "
 	[] call life_fnc_cellphone;
 	hint format[""Admin Message Sent To All: %1"",_msg];
 ";
+fnc_cell_textmedic =
+compileFinal "
+	private[""_msg"",""_to""];
+	ctrlShow[3022,false];
+	_msg = ctrlText 3003;
+	_to = ""den Ärtzen"";
+	if(_msg == """") exitWith {hint ""You must enter a message to send!"";ctrlShow[3016,true];};
+		
+	[[_msg,name player,5],""clientMessage"",resistance,false] spawn life_fnc_MP;
+	[] call life_fnc_cellphone;
+	hint format[""You sent %1 a message: %2"",_to,_msg];
+	ctrlShow[3022,true];
+";
+fnc_cell_textadac =
+compileFinal "
+	private[""_msg"",""_to""];
+	ctrlShow[3023,false];
+	_msg = ctrlText 3003;
+	_to = ""den ADAC"";
+	if(_msg == """") exitWith {hint ""You must enter a message to send!"";ctrlShow[3016,true];};
+		
+	[[_msg,name player,6],""clientMessage"",resistance,false] spawn life_fnc_MP;
+	[] call life_fnc_cellphone;
+	hint format[""You sent %1 a message: %2"",_to,_msg];
+	ctrlShow[3023,true];
+";
 
 publicVariable "fnc_cell_textmsg";
 publicVariable "fnc_cell_textcop";
 publicVariable "fnc_cell_textadmin";
 publicVariable "fnc_cell_adminmsg";
 publicVariable "fnc_cell_adminmsgall";
+publicVariable "fnc_cell_textmedic";
+publicVariable "fnc_cell_textadac";
 //Client Message
 /*
 	0 = private message
@@ -237,6 +265,8 @@ publicVariable "fnc_cell_adminmsgall";
 	2 = message to admin
 	3 = message from admin
 	4 = admin message to all
+    5 = medic
+    6 = adac
 */
 clientMessage =
 compileFinal "
@@ -262,10 +292,10 @@ compileFinal "
 		{
 			if(side player != west) exitWith {};
 			private[""_message""];
-			_message = format[""---911 DISPATCH FROM %1: %2"",_from,_msg];
-			hint parseText format [""<t color='#316dff'><t size='2'><t align='center'>New Dispatch<br/><br/><t color='#33CC33'><t align='left'><t size='1'>To: <t color='#ffffff'>All Officers<br/><t color='#33CC33'>From: <t color='#ffffff'>%1<br/><br/><t color='#33CC33'>Message:<br/><t color='#ffffff'>%2"",_from,_msg];
+			_message = format[""---110 Anruf von %1: %2"",_from,_msg];
+			hint parseText format [""<t color='#316dff'><t size='2'><t align='center'>Neuer Einsatz<br/><br/><t color='#33CC33'><t align='left'><t size='1'>Zu: <t color='#ffffff'>Der Polizei<br/><t color='#33CC33'>Von: <t color='#ffffff'>%1<br/><br/><t color='#33CC33'>Nachricht:<br/><t color='#ffffff'>%2"",_from,_msg];
 			
-			[""PoliceDispatch"",[format[""A New Police Report From: %1"",_from]]] call bis_fnc_showNotification;
+			[""PoliceDispatch"",[format[""Ein neue Einsatz von: %1"",_from]]] call bis_fnc_showNotification;
 			systemChat _message;
 		};
 		
@@ -302,6 +332,26 @@ compileFinal "
 			[""AdminMessage"",[""You Have Received A Message From An Admin!""]] call bis_fnc_showNotification;
 			systemChat _message;
 			if((call life_adminlevel) > 0) then {systemChat _admin;};
+		};
+        case 5 :
+		{
+			if(side player != guer) exitWith {};
+			private[""_message""];
+			_message = format[""---112 Anruf von %1: %2"",_from,_msg];
+			hint parseText format [""<t color='#316dff'><t size='2'><t align='center'>Neuer Einsatz<br/><br/><t color='#33CC33'><t align='left'><t size='1'>Zu: <t color='#ffffff'>den Notärtzen<br/><t color='#33CC33'>Von: <t color='#ffffff'>%1<br/><br/><t color='#33CC33'>Nachricht:<br/><t color='#ffffff'>%2"",_from,_msg];
+			
+			[""PoliceDispatch"",[format[""Ein neue Einsatz von: %1"",_from]]] call bis_fnc_showNotification;
+			systemChat _message;
+		};
+        case 6 :
+		{
+			if(side player != guer) exitWith {};
+			private[""_message""];
+			_message = format[""---Hotline Anruf von %1: %2"",_from,_msg];
+			hint parseText format [""<t color='#316dff'><t size='2'><t align='center'>Neuer Auftrag<br/><br/><t color='#33CC33'><t align='left'><t size='1'>Zu: <t color='#ffffff'>dem ADAC<br/><t color='#33CC33'>Von: <t color='#ffffff'>%1<br/><br/><t color='#33CC33'>Nachricht:<br/><t color='#ffffff'>%2"",_from,_msg];
+			
+			[""PoliceDispatch"",[format[""Ein neue Auftrag von: %1"",_from]]] call bis_fnc_showNotification;
+			systemChat _message;
 		};
 	};
 ";

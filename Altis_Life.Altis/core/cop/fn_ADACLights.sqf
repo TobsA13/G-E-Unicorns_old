@@ -22,7 +22,7 @@ sleep 0.2;
 
 _lightfleft setLightColor _lightc; 
 _lightfleft setLightBrightness 0.2;  
-_lightfleft setLightAmbient [0.1,0.1,1];
+_lightfleft setLightAmbient _lightc;
 _lightfleft setLightAttenuation [0.04, 0, 1000, 130]; 
 _lightfleft setLightIntensity 10;
 _lightfleft setLightFlareSize 0.38;
@@ -32,7 +32,7 @@ _lightfleft setLightDayLight true;
 
 _lightbleft setLightColor _lightc; 
 _lightbleft setLightBrightness 0.2;  
-_lightbleft setLightAmbient [0.1,0.1,1];
+_lightbleft setLightAmbient _lightc;
 _lightbleft setLightAttenuation [0.04, 0, 1000, 130]; 
 _lightbleft setLightIntensity 10;
 _lightbleft setLightFlareSize 0.38;
@@ -42,7 +42,7 @@ _lightbleft setLightDayLight true;
 
 _lightfright setLightColor _lightc; 
 _lightfright setLightBrightness 0.2;  
-_lightfright setLightAmbient [0.1,0.1,1];
+_lightfright setLightAmbient _lightc;
 _lightfright setLightAttenuation [0.04, 0, 1000, 130]; 
 _lightfright setLightIntensity 10;
 _lightfright setLightFlareSize 0.38;
@@ -52,7 +52,7 @@ _lightfright setLightDayLight true;
 
 _lightbright setLightColor _lightc; 
 _lightbright setLightBrightness 0.2;  
-_lightbright setLightAmbient [0.1,0.1,1];
+_lightbright setLightAmbient _lightc;
 _lightbright setLightAttenuation [0.04, 0, 1000, 130]; 
 _lightbright setLightIntensity 10;
 _lightbright setLightFlareSize 0.38;

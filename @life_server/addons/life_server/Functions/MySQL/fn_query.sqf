@@ -89,7 +89,6 @@ if(isNil {((_sql select 0) select 0)}) then
 			
 			_ret set[4,_old];
 		};
-        
 	};
 	_ret;
 };

@@ -58,7 +58,10 @@ _vehicle lock 2;
 
 //Reskin the vehicle 
 [[_vehicle,(call compile format["%1",_vInfo select 8])],"life_fnc_colorVehicle",true,false] spawn life_fnc_MP;
-
+if((_vInfo select 2) == "C_Kart_01_F") then
+{   
+	[[_vehicle],"life_fnc_addActionKart",true,false] spawn life_fnc_MP;
+};
 //Sets of animations
 if((_vInfo select 1) == "civ" && (_vInfo select 2) == "B_Heli_Light_01_F" && (call compile format["%1",_vInfo select 8]) != 13) then
 {
@@ -73,8 +76,7 @@ if((_vInfo select 1) == "cop" && (_vInfo select 2) == "C_Offroad_01_F") then
 if((_vInfo select 1) == "cop" && (_vInfo select 2) in ["B_MRAP_01_F","C_SUV_01_F"]) then {
 	_vehicle setVariable["lights",false,true];
 };
-
-if((_vInfo select 1) == "Error" && (_vInfo select 2) in ["C_SUV_01_F"]) then {
+if((_vInfo select 1) == "Error") then {
 	_vehicle setVariable["lights",false,true];
 };
 

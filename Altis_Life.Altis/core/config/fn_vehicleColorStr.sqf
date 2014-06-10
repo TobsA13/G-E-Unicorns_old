@@ -264,6 +264,16 @@ switch (_vehicle) do
 			case 0: {_color = "Regular"};
 		};
 	};
+    case "C_Kart_01_F":
+    {
+		switch (_index) do
+		{
+			case 0: {_color = "Bluking"};
+            case 1: {_color = "Fuel"};
+            case 2: {_color = "Redstone"};
+            case 3: {_color = "Vrana"};
+		};
+	};
 };
 
 _color;

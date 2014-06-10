@@ -92,6 +92,7 @@ class Life_Client_Core
         
         class delAction {};
         class addActionRob {};
+        class addActionKart {};
 	};
 	
 	class Config

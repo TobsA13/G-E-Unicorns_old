@@ -232,16 +232,14 @@ switch (_code) do
     //Rollen + Shift GCAM
 	case 70:
 	{
-        hint "1.";
         if(!(__GETC__(life_adminlevel) == 0)) then{
-        hint "2.";
             if(_shift) then {[player] execVM "spectator\specta.sqf";};
         };
 	};
 	//F Key
 	case 33:
 	{
-		if((playerSide == west || str(player) in ["medic_1","medic_2","medic_3","medic_4"]) && vehicle player != player && !life_siren_active && ((driver vehicle player) == player)) then
+		if((playerSide == west || playerSide == resistance) && vehicle player != player && !life_siren_active && ((driver vehicle player) == player)) then
 		{
 			[] spawn
 			{
@@ -253,12 +251,12 @@ switch (_code) do
 			if(isNil {_veh getVariable "siren"}) then {_veh setVariable["siren",false,true];};
 			if((_veh getVariable "siren")) then
 			{
-				titleText ["Sirens Off","PLAIN"];
+				titleText ["Sirene AUS","PLAIN"];
 				_veh setVariable["siren",false,true];
 			}
 				else
 			{
-				titleText ["Sirens On","PLAIN"];
+				titleText ["Sirene AN","PLAIN"];
 				_veh setVariable["siren",true,true];
 				[[_veh],"life_fnc_copSiren",nil,true] spawn life_fnc_MP;
 			};

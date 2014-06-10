@@ -295,7 +295,10 @@ if(playerSide == west) then
 		[_vehicle,"cop_offroad",true] call life_fnc_vehicleAnimate;
 	};
 };
-
+if(_veh == "C_Kart_01_F") then
+{   
+	[[_vehicle],"life_fnc_addActionKart",true,false] spawn life_fnc_MP;
+};
 [[_vehicle,_color],"life_fnc_colorVehicle",true,false] spawn life_fnc_MP;
 //[_vehicle,_color,_unit]
 [[(getPlayerUID player),playerSide,_vehicle,_color],"TON_fnc_vehicleCreate",false,false] spawn life_fnc_MP;

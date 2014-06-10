@@ -472,6 +472,7 @@ Sonstige Delikte<br/><br/>
     Ernst gemeinte Beleidigung anderer Spieler: Kick als einmalige Verwarnung. Bei Wiederholung Bann<br/><br/>
     Aufstand: Inhaftierung aller Beteiligten so wie ein Bußgeld das vom Ranghöchsten Beamten im Dienst verhängt wird + Beschlagnahme von Fahrzeugen und Waffen<br/><br/>
     Angriff durch Rebellen: Inhaftierung aller Beteiligten so wie ein Bußgeld das vom Ranghöchsten Beamten im Dienst verhängt wird + Beschlagnahme bzw. Zerstörung von Fahrzeugen & Waffen<br/><br/>
+    Illegales Straßenrennen: 50.000$<br/><br/>
 
 
 
@@ -557,6 +558,7 @@ Alle Polizisten können die Höhe des Bußgeldes selbst bestimmen wenn ein minim
 				2. Speedboat<br/>
 				3. Hunter<br/>
 				4. Police Offroad<br/>
+                5. Kart<br/>
 				"
 		]
 	];

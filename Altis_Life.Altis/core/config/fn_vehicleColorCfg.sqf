@@ -259,6 +259,16 @@ switch (_vehicle) do
 			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","fed"]
 		];
 	};
+    case "C_Kart_01_F":
+	{
+		_ret = 
+		[
+			["\A3\Soft_F_Kart\Kart_01\Data\Kart_01_blu_CO.paa","civ"],
+            ["\A3\Soft_F_Kart\Kart_01\Data\Kart_01_CO.paa","civ"],
+            ["\A3\Soft_F_Kart\Kart_01\Data\Kart_01_black_CO.paa","civ"],
+            ["\A3\Soft_F_Kart\Kart_01\Data\Kart_01_vrana_CO.paa","civ"]
+		];
+	};
 };
 
 _ret;

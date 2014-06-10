@@ -30,11 +30,13 @@ onEachFrame
 					case (7) : {_name = format["Ltd. Polizeidirektor %1", name _x];_icon = MISSION_ROOT + "images\icon_deputychief.paa";};
 					default {_name = name _x; _icon = ""; _width = 0; _height = 0;}
 				};
+                if(str(_x) in ["medic_1","medic_2","medic_3","medic_4"]) then{_name = format["Notarzt %1", name _x];};
+                if(str(_x) in ["adac_1","adac_2"]) then {_name = format["ADAC %1", name _x];};
                 if (_x getVariable["coplevel", 0] > 0) then
 				{
 					_icon = [((_x getVariable["coplevel", 0]) - 1),"texture"] call BIS_fnc_rankParams;
 				};
-                drawIcon3D [_icon,[1,1,1,1],_pos,_width,_height,0,_name,0,0.04];
+                drawIcon3D [_icon,[1,1,1,0.7],_pos,_width,_height,0,_name,0,0.04];
             };
         };
     } foreach _near;

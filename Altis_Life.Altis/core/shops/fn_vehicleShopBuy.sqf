@@ -267,6 +267,10 @@ if(_veh == "B_MRAP_01_hmg_F") then
 {
 	_vehicle disableTIEquipment true;
 };
+if(_veh == "C_Kart_01_F") then
+{   
+	[[_vehicle],"life_fnc_addActionKart",true,false] spawn life_fnc_MP;
+};
 _vehicle setPos _sp;
 _vehicle setDir _dir;
 _vehicle setVariable["trunk_in_use",false,true];

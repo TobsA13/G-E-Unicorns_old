@@ -5,20 +5,16 @@
 	Description:
 	Answers the query request to create the vehicle in the database.
 */
-private["_uid","_side","_type","_classname","_color","_plate","_unit"];
-
-_vehicle = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
-_color = [_this,1,-1,[0]] call BIS_fnc_param;
-_unit = [_this,2,ObjNull,[ObjNull]] call BIS_fnc_param;
-
+private["_uid","_side","_type","_classname","_color","_plate"];
+_uid = [_this,0,"",[""]] call BIS_fnc_param;
+_side = [_this,1,sideUnknown,[west]] call BIS_fnc_param;
+_vehicle = [_this,2,ObjNull,[ObjNull]] call BIS_fnc_param;
+_color = [_this,3,-1,[0]] call BIS_fnc_param;
 
 //Error checks
-if(isNull _vehicle OR isNull _unit) exitWith {};
+if(_uid == "" OR _side == sideUnknown OR isNull _vehicle) exitWith {};
 if(!alive _vehicle) exitWith {};
-
 _className = typeOf _vehicle;
-_uid = getPlayerUID _unit;
-_side = side _unit;
 _type = switch(true) do
 {
 	case (_vehicle isKindOf "Car"): {"Car"};
@@ -26,23 +22,13 @@ _type = switch(true) do
 	case (_vehicle isKindOf "Ship"): {"Ship"};
 };
 
-if(_side == independent){
-    if(str(_unit) in ["medic_1","medic_2","medic_3","medic_4"]) then {
-    _side = "med";
-    };
-
-    if(str(_unit) in ["adac_1","adac_2"]) then {
-    _side = "adac";
-    };
-
-}else{
-    _side = switch(_side) do
-    {
-        case west:{"cop"};
-        case civilian: {"civ"};
-        default {"Error"};
-    };
+_side = switch(_side) do
+{
+	case west:{"cop"};
+	case civilian: {"civ"};
+	default {"Error"};
 };
+
 _plate = round(random(1000000));
 [_uid,_side,_type,_classname,_color,_plate] call DB_fnc_insertVehicle;
 
