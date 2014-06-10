@@ -51,8 +51,5 @@ for "_i" from 0 to (count life_vehicles)-1 do
 		_cars lbSetPicture [(lbSize _cars)-1,_pic];
 		_cars lbSetData [(lbSize _cars)-1,str(_i)];
 		_cars lbSetValue [(lbSize _cars)-1,_price];
-        if(_veh == "C_Kart_01_F") then{
-        _cars lbDelete ((lbSize _cars)-1);
-        };
 	};
 };
